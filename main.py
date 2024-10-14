@@ -1,5 +1,7 @@
-from app.utils import create_matrix, create_random_list
+from app.utils import create_matrix, create_random_list, create_csv
 from app.app import fill_matrix
+
+C = 0.10
 
 def main():
     print("Starting ANM application...")
@@ -10,9 +12,12 @@ def main():
     for fila in matrix:
         print(fila)
 
-    fill_matrix(animals, matrix, 0.15)
+    fill_matrix(animals, matrix, C)
     for fila in matrix:
         print(fila)
+        
+    create_csv(matrix)
+    
     print("App finished")
 
 if __name__ == "__main__":
