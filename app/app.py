@@ -1,5 +1,4 @@
 import numpy as np
-from scipy.stats import beta
 
 # Method to calculate feeding range
 def calculate_ri(C):

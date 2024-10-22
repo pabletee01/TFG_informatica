@@ -1,18 +1,19 @@
 import pandas as pd
 import random as rn
 
-
+# Used to create a predation matrix.
 def create_matrix(N: int):
     matrix = [[0 for _ in range(N)] for _ in range(N)] 
     return matrix
 
+# Used to create random animals for testing purposes.
 def create_random_list(N: int):
     animals = [round(rn.random(), 4)  for _ in range(N)]
     return animals
     
+# Creates Gephi node CSV.
 def create_csv(matrix: list):
     
-
     shape = len(matrix)
     
     id = []

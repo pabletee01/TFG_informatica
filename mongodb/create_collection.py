@@ -7,6 +7,9 @@ def insert_habitat(habitat: list, name: str):
     db = client['ANMdb_non_curated']
     collection = db[name]
 
+    # Delete the collection in case there's data
+    collection.delete_many({})
+
     for animal in habitat:
         insert_result = collection.insert_one(animal)
 
