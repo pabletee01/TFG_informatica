@@ -1,8 +1,10 @@
 import numpy as np
+from scipy.stats import beta
 
 # Method to calculate feeding range
 def calculate_ri(C):
-    return np.random.beta(1, 2*C)
+    ni = np.random.uniform(0,1)
+    return 1-(1-ni)**(1/2*C)
 
 # Method to calculate feeding optimum
 def calculate_ci(ri, ni):
@@ -27,7 +29,7 @@ def fill_matrix(list, matrix, C):
     for ni in list:
         ri = calculate_ri(C)
         ci = calculate_ci(ri, ni)
-        print(f"ni: {ni}, ri: {ri}, ci: {ci}")
+        print(f"{positionx+1}-> ni: {ni}, ri: {ri}, ci: {ci}")
         for ni2 in list:
             matrix[positionx][positiony] = generate_relation(ri, ci, ni2)
             positiony += 1
