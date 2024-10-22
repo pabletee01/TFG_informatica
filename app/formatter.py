@@ -27,7 +27,3 @@ def formatter(file: str, c_name: str):
     insert_habitat(animal_list, c_name)
 
     return
-
-"""file = "Zona-0_Las_Hoyas-C1.csv"
-c_name = "Zona-0_Las_Hoyas-C1"
-formatter(file, c_name)"""

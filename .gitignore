@@ -1,2 +1,6 @@
 __pycache__
 data/habitats/*.csv
+!data/habitats/Zona-0_Las_Hoyas-C1.csv
+!data/habitats/Zona-1_Cache_River-C1.csv
+!data/habitats/Zona-2_Cienaga_Lerma-C1.csv
+!data/habitats/Zona-3_Abras_Mantequilla-C1.csv
