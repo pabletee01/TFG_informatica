@@ -2,6 +2,7 @@ import argparse
 from app.utils import create_matrix, create_random_list, create_csv
 from app.app import fill_matrix
 from app.formatter import formatter
+from app.classifier import classifier
 import pytest
 
 C = 0.3
@@ -12,6 +13,9 @@ def main():
     parser.add_argument(
         "-t", "--test", action="store_true", help="Run the tests instead of the application"
     )
+    parser.add_argument(
+        "-c", "--classifier", action="store_true", help="Start testing classifier"
+    )
 
     args = parser.parse_args()
 
@@ -19,6 +23,9 @@ def main():
     if args.test:
         print("Running tests")
         pytest.main(['-v'])
+    elif args.classifier:
+        formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
+        classifier("collection1","")
     # Normal mode
     else:
 

@@ -1,0 +1,90 @@
+CATEGORY_1:
+  tag: AUTOTROPH
+  requirements:
+    - or:
+        - diet: autotroph
+        - diet: symbiotr
+    - and:
+        - diet: carnivore
+        - kingdom: planta
+
+CATEGORY_2:
+  tag: HERBIVORE
+  requirements:
+    - or:
+        - diet: herbivore
+        - diet: fruit
+        - diet: leaves
+        - diet: plant
+        - diet: seed
+        - diet: alga
+        - diet: leaf
+        - diet: wood
+        - diet: root
+        - diet: flower
+        - diet: pollen
+        - diet: nectar
+        - diet: weed
+        - diet: lichen
+        - diet: nectar
+        - diet: fung
+        - diet: omniv
+        - diet: grass
+        - diet: phyto
+        - diet: microo
+
+CATEGORY_3:
+  tag: CARNIVORE
+  requirements:
+    - or:
+        - diet: carnivore
+        - diet: egg
+        - diet: vertebr
+        - diet: worm
+        - diet: insect
+        - diet: fish
+        - diet: crustacea
+        - diet: echino
+        - diet: amphibi
+        - diet: mollusc
+        - diet: mammal
+        - diet: bird
+        - diet: reptile
+        - diet: arthrop
+        - diet: zoo
+        - diet: omniv
+        - diet: predato
+        - diet: microo
+
+CATEGORY_4:
+  tag: DETRITIVORE
+  requirements:
+    - or:
+        - diet: detrit
+        - diet: sedimen
+        - diet: mor
+        - diet: litter
+        - diet: clay
+        - diet: suspend
+        - diet: filt
+
+CATEGORY_5:
+  tag: SCAVENGER
+  requirements:
+    - or:
+        - diet: scaveng
+        - diet: carrion
+
+CATEGORY_6:
+  tag: PARASITE OF PLANTS
+  requirements:
+    - and:
+        - diet: parasit
+        - kingdom: animal
+
+CATEGORY_7:
+  tag: PARASITE OF ANIMALS
+  requirements:
+    - and:
+        - diet: parasit
+        - kingdom: planta
