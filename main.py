@@ -25,7 +25,7 @@ def main():
         pytest.main(['-v'])
     elif args.classifier:
         formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
-        classifier("collection1","collection1")
+        classifier("collection1","collection1","classifier.yaml")
     # Normal mode
     else:
 

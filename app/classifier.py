@@ -4,9 +4,10 @@ import json
 from mongodb.read_collection import read_habitat
 from mongodb.create_collection import insert_habitat_curated
 
+
 # Loads engine configuration from yaml file on config/classifier.yaml
-def engine_loader():
-    filea = os.getcwd() + "/config/classifier.yaml"
+def engine_loader(classifier: str):
+    filea = os.getcwd() + "/config/" + classifier
     with open(filea, 'r') as file:
         engine_data = ym.load(file, Loader=ym.FullLoader)
 
@@ -14,10 +15,10 @@ def engine_loader():
     return engine_data
 
 # Classifies animals in the categories created on config/classifier.yaml
-def classifier(c_name: str, cout_name: str):
+def classifier(c_name: str, cout_name: str, config_file: str):
     all_documents = read_habitat(c_name)
 
-    engine_config = engine_loader()
+    engine_config = engine_loader(config_file)
 
     animal_list_curated = []
 
@@ -56,6 +57,7 @@ def classifier(c_name: str, cout_name: str):
                             flag_or = 1
                 # And case
                 else:
+                    
                     flag_and = 1
                     for value in rule['and']:
                         key = list(value.keys())[0] # Obtaining key of the rule
