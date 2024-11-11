@@ -33,13 +33,13 @@ def mongo_db_curated():
 # Insert one habitat
 def test_classifier_ok(mongo_db_non_curated, mongo_db_curated):
 
-    result = formatter("Zona-0_Las_Hoyas-C1.csv", "test_collection")
+    formatter("Zona-0_Las_Hoyas-C1.csv", "test_collection")
 
-    classifier("test_collection", "test_collection", "classifier.yaml")
+    result = classifier("test_collection", "test_collection", "classifier.yaml")
 
     # Getting number of lines in the curated collection
     collection = mongo_db_curated["test_collection"]
     inserted_data = list(collection.find({}))
 
     # 159 lines in Zona-0_Las_Hoyas-C1.csv 
-    assert len(inserted_data) == 159
+    assert len(inserted_data) == 159 and result == True

@@ -3,6 +3,46 @@ import os
 import json
 from mongodb.read_collection import read_habitat
 from mongodb.create_collection import insert_habitat_curated
+from cerberus import Validator
+
+# Format that each category in the configuration file must follow:
+SCHEMA = {
+    "tag": {"type": "string", "required": True},
+    "requirements": {
+        "type": "list",
+        "schema": {
+            "type": "dict",
+            "oneof_schema": [  
+                {
+                    "or": {
+                        "type": "list",
+                        "schema": {
+                            "type": "dict",
+                            "allowed": ["diet", "kingdom"],
+                            "schema": {
+                                "diet": {"type": "string"},
+                                "kingdom": {"type": "string"}
+                            }
+                        }
+                    }
+                },
+                {
+                    "and": {
+                        "type": "list",
+                        "schema": {
+                            "type": "dict",
+                            "allowed": ["diet", "kingdom"],
+                            "schema": {
+                                "diet": {"type": "string"},
+                                "kingdom": {"type": "string"}
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
 
 
 # Loads engine configuration from yaml file on config/classifier.yaml
@@ -11,14 +51,37 @@ def engine_loader(classifier: str):
     with open(filea, 'r') as file:
         engine_data = ym.load(file, Loader=ym.FullLoader)
 
-    print(json.dumps(engine_data, indent=2))
-    return engine_data
+
+    v = Validator(SCHEMA)
+
+    # Validating each category
+    is_error_f = True
+    for category, details in engine_data.items():
+        is_error = v.validate(details)
+        if not is_error:
+            is_error_f = False
+
+    if is_error_f:
+        return engine_data
+    else:
+        print("Validation errors:")
+        for field, errors in v.errors.items():
+            print(f"- In {field}:")
+            for error in errors:
+                print(f"   {error}")
+        return None
+
+    
 
 # Classifies animals in the categories created on config/classifier.yaml
 def classifier(c_name: str, cout_name: str, config_file: str):
     all_documents = read_habitat(c_name)
 
     engine_config = engine_loader(config_file)
+
+    # Checking format errors in configuration file
+    if engine_config == None:
+        return False
 
     animal_list_curated = []
 
@@ -78,6 +141,7 @@ def classifier(c_name: str, cout_name: str, config_file: str):
 
         # Inserting the habitat in the categorized database
         insert_habitat_curated(animal_list_curated, cout_name)
+        return True
 
 
 
