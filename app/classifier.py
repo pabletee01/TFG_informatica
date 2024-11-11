@@ -141,7 +141,7 @@ def classifier(c_name: str, cout_name: str, config_file: str):
 
         # Inserting the habitat in the categorized database
         insert_habitat_curated(animal_list_curated, cout_name)
-        return True
+    return True
 
 
 
