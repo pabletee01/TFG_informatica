@@ -1,6 +1,7 @@
 import yaml as ym
 import os
 import json
+import sys
 from mongodb.read_collection import read_habitat
 from mongodb.create_collection import insert_habitat_curated
 from cerberus import Validator
@@ -51,25 +52,32 @@ def engine_loader(classifier: str):
     with open(filea, 'r') as file:
         engine_data = ym.load(file, Loader=ym.FullLoader)
 
+    # Empty configuration file
+    if engine_data is None:
+        return None
 
     v = Validator(SCHEMA)
 
     # Validating each category
+    errors = []
     is_error_f = True
     for category, details in engine_data.items():
         is_error = v.validate(details)
         if not is_error:
             is_error_f = False
+            errors.append(v.errors.items())
+
 
     if is_error_f:
         return engine_data
     else:
         print("Validation errors:")
-        for field, errors in v.errors.items():
-            print(f"- In {field}:")
-            for error in errors:
-                print(f"   {error}")
-        return None
+        for error in errors:
+            for field, errors in error:
+                print(f"- In {field}:", file=sys.stderr)
+                for error in errors:
+                    print(f"   {error}", file=sys.stderr)
+            return None
 
     
 
