@@ -1,6 +1,5 @@
 import yaml as ym
 import os
-import json
 import sys
 from mongodb.read_collection import read_habitat
 from mongodb.create_collection import insert_habitat_curated
@@ -61,7 +60,7 @@ def engine_loader(classifier: str):
     # Validating each category
     errors = []
     is_error_f = True
-    for category, details in engine_data.items():
+    for _ , details in engine_data.items():
         is_error = v.validate(details)
         if not is_error:
             is_error_f = False
