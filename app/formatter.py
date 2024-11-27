@@ -29,9 +29,11 @@ def formatter(file: str, c_name: str):
                     raise Exception(f"Wrong format in CSV {file}")
             animal = {
                 'name': row[0],        # elem0 scientific name
-                'kingdom': row[1],     # elem1 kingdom of the animal
-                'weight': float(row[6]),      # elem6 Absolute mass of the animal 
-                'size': float(row[7]),        # elem7 Absolute size of the animal
+                'kingdom': row[1],     # elem1 kingdom of the organism
+                'order': row[2],       # elem2 order of the animal
+                'type': row[3],        # elem3 organism type.
+                'weight': float(row[6]),      # elem6 Absolute mass of the organism 
+                'size': float(row[7]),        # elem7 Absolute size of the organism
                 'diet': row[8]         # elem8 Diet
             }
             animal_list.append(animal)

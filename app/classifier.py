@@ -18,10 +18,12 @@ SCHEMA = {
                         "type": "list",
                         "schema": {
                             "type": "dict",
-                            "allowed": ["diet", "kingdom"],
+                            "allowed": ["diet", "kingdom", "type", "order"],
                             "schema": {
                                 "diet": {"type": "string"},
-                                "kingdom": {"type": "string"}
+                                "kingdom": {"type": "string"},
+                                "type": {"type": "string"},
+                                "order": {"type": "string"}
                             }
                         }
                     }
@@ -31,10 +33,12 @@ SCHEMA = {
                         "type": "list",
                         "schema": {
                             "type": "dict",
-                            "allowed": ["diet", "kingdom"],
+                            "allowed": ["diet", "kingdom", "type"],
                             "schema": {
                                 "diet": {"type": "string"},
-                                "kingdom": {"type": "string"}
+                                "kingdom": {"type": "string"},
+                                "type": {"type": "string"},
+                                "order": {"type": "string"}
                             }
                         }
                     }

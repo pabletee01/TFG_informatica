@@ -88,3 +88,119 @@ CATEGORY_7:
     - and:
         - diet: parasit
         - kingdom: planta
+
+CATEGORY_8:
+  tag: INSECTIVORE
+  requirements:
+    - or:
+        - diet: insect
+        - diet: invert
+        - diet: arthrop
+
+CATEGORY_9:
+  tag: MOLLUSCIVORE
+  requirements:
+    - or:
+        - diet: worm
+        - diet: invert
+        - diet: mollusc
+
+CATEGORY_10:
+  tag: DUROPHAGOUS
+  requirements:
+    - or:
+        - diet: crustac
+        - diet: echino
+        - diet: invert
+
+CATEGORY_11:
+  tag: PISCIVORE
+  requirements:
+    - or:
+        - diet: fish
+
+CATEGORY_12:
+  tag: RANIVORE
+  requirements:
+    - or:
+        - diet: amphibi
+
+CATEGORY_13:
+  tag: HERPETIVORE
+  requirements:
+    - or:
+        - diet: reptile
+
+CATEGORY_14:
+  tag: BIRDVORE-OOPHAGOUS
+  requirements:
+    - or:
+        - diet: bird
+        - diet: egg
+
+CATEGORY_15:
+  tag: MAMMALIVORE
+  requirements:
+    - or:
+        - diet: mammal
+
+CATEGORY_16:
+  tag: GENERALIST
+  requirements:
+    - or:
+        - diet: carnivo
+        - diet: omnivor
+
+CATEGORY_17:
+  tag: Insects
+  requirements:
+    - or:
+        - type: Insecta
+
+CATEGORY_18:
+  tag: Molluscs
+  requirements:
+    - or:
+        - order: Mollusca
+
+CATEGORY_19:
+  tag: Fish
+  requirements:
+    - or:
+        - type: Sarcopterygii
+        - type: Actinopterygii
+        - type: Cephalaspidomorphi
+
+CATEGORY_20:
+  tag: Eaten_by_Durophagus
+  requirements:
+    - or:
+        - type: Malacostraca
+        - type: Ostracoda
+        - order: Echinodermata
+        - type: Branchiopoda
+        - type: Maxillopoda
+
+CATEGORY_21:
+  tag: Amphibian
+  requirements:
+    - or:
+        - type: Amphibia
+
+CATEGORY_22:
+  tag: Reptiles
+  requirements:
+    - or:
+        - type: Reptilia
+
+CATEGORY_23:
+  tag: Aves
+  requirements:
+    - or:
+        - type: Aves
+
+CATEGORY_24:
+  tag: Mammalia
+  requirements:
+    - or:
+        - type: Mammalia
