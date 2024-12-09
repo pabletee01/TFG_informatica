@@ -32,6 +32,9 @@ CATEGORY_2:
         - diet: grass
         - diet: phyto
         - diet: microo
+  relations:
+    - CATEGORY_1: 1
+    - CATEGORY_6: 1
 
 CATEGORY_3:
   tag: CARNIVORE
@@ -74,6 +77,13 @@ CATEGORY_5:
     - or:
         - diet: scaveng
         - diet: carrion
+  relations:
+    - CATEGORY_2: 1
+    - CATEGORY_3: 1
+    - CATEGORY_4: 1
+    - CATEGORY_5: 1
+    - CATEGORY_6: 1
+    - CAYEGORY_7: 1
 
 CATEGORY_6:
   tag: PARASITE OF PLANTS
@@ -81,6 +91,8 @@ CATEGORY_6:
     - and:
         - diet: parasit
         - kingdom: animal
+  relations:
+    - CATEGORY_1: 1
 
 CATEGORY_7:
   tag: PARASITE OF ANIMALS
@@ -88,6 +100,13 @@ CATEGORY_7:
     - and:
         - diet: parasit
         - kingdom: planta
+  relations:
+    - CATEGORY_2: 3
+    - CATEGORY_3: 3
+    - CATEGORY_4: 3
+    - CATEGORY_5: 3
+    - CATEGORY_6: 3
+    - CATEGORY_7: 3
 
 CATEGORY_8:
   tag: INSECTIVORE
@@ -96,6 +115,8 @@ CATEGORY_8:
         - diet: insect
         - diet: invert
         - diet: arthrop
+  relations:
+    - CATEGORY_17: 2
 
 CATEGORY_9:
   tag: MOLLUSCIVORE
@@ -104,6 +125,8 @@ CATEGORY_9:
         - diet: worm
         - diet: invert
         - diet: mollusc
+  relations:
+    - CATEGORY_18: 2
 
 CATEGORY_10:
   tag: DUROPHAGOUS
@@ -112,24 +135,32 @@ CATEGORY_10:
         - diet: crustac
         - diet: echino
         - diet: invert
+  relations:
+    - CATEGORY_20: 2
 
 CATEGORY_11:
   tag: PISCIVORE
   requirements:
     - or:
         - diet: fish
+  relations:
+    - CATEGORY_19: 2
 
 CATEGORY_12:
   tag: RANIVORE
   requirements:
     - or:
         - diet: amphibi
+  relations:
+    - CATEGORY_21: 2
 
 CATEGORY_13:
   tag: HERPETIVORE
   requirements:
     - or:
         - diet: reptile
+  relations:
+    - CATEGORY_22: 2
 
 CATEGORY_14:
   tag: BIRDVORE-OOPHAGOUS
@@ -137,12 +168,16 @@ CATEGORY_14:
     - or:
         - diet: bird
         - diet: egg
+  relations:
+    - CATEGORY_23: 2
 
 CATEGORY_15:
   tag: MAMMALIVORE
   requirements:
     - or:
         - diet: mammal
+  relations:
+    - CATEGORY_24: 2
 
 CATEGORY_16:
   tag: GENERALIST
@@ -150,6 +185,9 @@ CATEGORY_16:
     - or:
         - diet: carnivo
         - diet: omnivor
+  relations:
+    - CATEGORY_2: 2
+    - CATEGORY_3: 2
 
 CATEGORY_17:
   tag: Insects

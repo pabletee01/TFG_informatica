@@ -3,6 +3,7 @@ from app.utils import create_matrix, create_random_list, create_csv
 from app.app import fill_matrix
 from app.formatter import formatter
 from app.classifier import classifier
+from app.matrix_maker import matrix_maker
 import pytest
 
 C = 0.3
@@ -16,6 +17,9 @@ def main():
     parser.add_argument(
         "-c", "--classifier", action="store_true", help="Start testing classifier"
     )
+    parser.add_argument(
+        "-m", "--matrix_maker", action="store_true", help="Start testing matrix maker"
+    )
 
     args = parser.parse_args()
 
@@ -26,6 +30,10 @@ def main():
     elif args.classifier:
         formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
         classifier("collection1","collection1","classifier.yaml")
+    elif args.matrix_maker:
+        formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
+        classifier("collection1","collection2","classifier.yaml")
+        matrix_maker("collection2","matrix","classifier.yaml")
     # Normal mode
     else:
 

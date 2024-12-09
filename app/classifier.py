@@ -45,6 +45,9 @@ SCHEMA = {
                 }
             ]
         }
+    },
+    "relations": {
+        "type": "list",
     }
 }
 
