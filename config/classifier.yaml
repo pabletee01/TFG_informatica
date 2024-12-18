@@ -90,7 +90,7 @@ CATEGORY_6:
   requirements:
     - and:
         - diet: parasit
-        - kingdom: animal
+        - kingdom: Plantae
   relations:
     - CATEGORY_1: 1
 
@@ -99,7 +99,7 @@ CATEGORY_7:
   requirements:
     - and:
         - diet: parasit
-        - kingdom: planta
+        - kingdom: Animalia
   relations:
     - CATEGORY_2: 3
     - CATEGORY_3: 3

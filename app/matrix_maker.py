@@ -1,7 +1,6 @@
-from mongodb.read_collection import read_habitat_curated
 from app.classifier import engine_loader
 
-def matrix_maker(c_name: str, cout_name: str, config_file: str):
+def matrix_maker(config_file: str):
 
     config = engine_loader(config_file)
 
@@ -26,5 +25,6 @@ def matrix_maker(c_name: str, cout_name: str, config_file: str):
                 matrix[category][key] = element[key]
 
     print(matrix)
+    return matrix
  
     

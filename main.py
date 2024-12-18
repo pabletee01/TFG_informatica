@@ -4,6 +4,8 @@ from app.app import fill_matrix
 from app.formatter import formatter
 from app.classifier import classifier
 from app.matrix_maker import matrix_maker
+from mongodb.read_collection import read_habitat_curated
+from app.relation_maker import calculate_relations
 import pytest
 
 C = 0.3
@@ -20,6 +22,9 @@ def main():
     parser.add_argument(
         "-m", "--matrix_maker", action="store_true", help="Start testing matrix maker"
     )
+    parser.add_argument(
+        "-r", "--relation_maker", action="store_true", help="Start testing relation maker"
+    )
 
     args = parser.parse_args()
 
@@ -33,7 +38,17 @@ def main():
     elif args.matrix_maker:
         formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
         classifier("collection1","collection2","classifier.yaml")
-        matrix_maker("collection2","matrix","classifier.yaml")
+        matrix_maker("classifier.yaml")
+    elif args.relation_maker:
+        formatter("Zona-0_Las_Hoyas-C1.csv","collection1")
+        classifier("collection1","collection2","classifier.yaml")
+        matrix_h = matrix_maker("classifier.yaml")
+        habitat = read_habitat_curated('collection2')
+        insect = habitat[90]
+        print(insect)
+        relations = []
+        calculate_relations(insect, matrix_h, relations, habitat)
+
     # Normal mode
     else:
 
