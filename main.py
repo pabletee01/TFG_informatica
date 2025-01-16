@@ -48,6 +48,7 @@ def main():
         print(insect)
         relations = []
         calculate_relations(insect, matrix_h, relations, habitat)
+        print(relations)
 
     # Normal mode
     else:
