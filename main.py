@@ -47,7 +47,7 @@ def main():
         insect = habitat[90]
         print(insect)
         relations = []
-        calculate_relations(insect, matrix_h, relations, habitat)
+        calculate_relations(insect, matrix_h, relations, habitat, 0.85)
         print(relations)
         print(len(relations))
 
