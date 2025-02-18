@@ -6,6 +6,8 @@ from app.classifier import classifier
 from app.matrix_maker import matrix_maker
 from mongodb.read_collection import read_habitat_curated
 from app.relation_maker import calculate_relations
+from app.app import obtain_min_max_mass
+from app.app import calculate_ni
 import pytest
 
 C = 0.3
@@ -47,9 +49,10 @@ def main():
         insect = habitat[90]
         print(insect)
         relations = []
-        calculate_relations(insect, matrix_h, relations, habitat, 0.85)
-        print(relations)
-        print(len(relations))
+        min, max =obtain_min_max_mass('collection2')
+        print(calculate_ni(min, max, insect['weight']))
+
+        # calculate_relations(insect, matrix_h, relations, habitat, 0.85)
 
     # Normal mode
     else:

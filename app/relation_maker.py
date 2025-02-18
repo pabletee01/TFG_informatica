@@ -4,14 +4,14 @@ import random as ran
 
 # dict to set predatory relation without conditionals
 priorities = {
-    0: {1:1,2:2,3:3}, # 
+    0: {1:1,2:2,3:3}, 
     1: {1:1,2:1,3:1},
     2: {1:1,2:2,3:3},
     3: {1:1,2:3,3:3},
 }
 
 # Method used to calculate the predatory relations between one live being and all other species in the habitat
-def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, connectivity_factor: float):
+def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, connectivity_factor: float, max_mass, min_mass):
     classes = l_being['class']
 
     # dictionary where we store each type of 
@@ -24,47 +24,81 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
         dict_matrix = matrix[cl]
         for cat in dict_matrix.keys():
             if cat in prey.keys():
-                prey[cat] = priorities[prey[cat]][dict_matrix[cat]]
+                if prey[cat][0] != priorities[prey[cat][0]][dict_matrix[cat]]:
+                    prey[cat][1] = cl
+                    print('Hola')
+                prey[cat][0] = priorities[prey[cat][0]][dict_matrix[cat]]
             else:
-                prey[cat] = dict_matrix[cat]
+                prey[cat] = [dict_matrix[cat], cl]
 
     # Calculation of the number of categories that consume other living beings associated to the living being to obtain the probability that is going to be needed
     # to determine if a predatory relation is established or not.
-    if l_being['consuming_classes'] != 0:
-        category_prey_probability = 1 / l_being['consuming_classes']
-    else:
-        category_prey_probability = 1
+    
+    
 
     print(matrix)
     print(prey)
     print(classes)
 
+    habitat_l = []
     # recopiling all predatory interactions of the given living being.
     for lb in habitat:
         # Relation set to not predatory by default
-        rel = 0
+        habitat_l.append(dict(lb))
+        rel = [0,'']
         for cat in lb['class']:
             # Calculating the value of predation type based on categories and priorities
             if cat in prey.keys():
-                print(lb['name'] + ' predation type: ' + str(prey[cat]))
-                rel = priorities[rel][prey[cat]]
+                print(lb['name'] + ' predation type: ' + str(prey[cat][0]))
+                if rel[0] != priorities[rel[0]][prey[cat][0]]:
+                    rel[1] = prey[cat][1]
+                rel[0] = priorities[rel[0]][prey[cat][0]]
         
         print(rel)
-        # Variable used to store the final output that determines the relation
-        definitive = 0
         # 1 in rel means predation is determined by the connectivity factor:
-        if rel == 1:
-            if ran.random() < category_prey_probability:
-                definitive = 1
-            
-        # 2 in rel means that ANM needs to be calculated:
-        if rel == 2:
-            if ran.random() < category_prey_probability:
-                definitive = 1
-            
-        # 3 in rel means that inverse ANM needs to be calculated:
-        if rel == 3:
-            if ran.random() < category_prey_probability:
-                definitive = 1
-        relations.append((rel, definitive))
-    print(category_prey_probability)
+        relations.append(rel)
+
+    # Calculating the frecuency of each category appearing in all the living being relations.
+    frequencies = {}
+    for r in relations:
+        if r[1] in frequencies.keys():
+            frequencies[r[1]] += 1
+        else:
+            frequencies[r[1]] = 1
+    if '' in frequencies.keys():
+        frequencies[''] = 0
+
+    total_frequencies = 0
+
+    for fr_cat in frequencies.keys():
+        total_frequencies += frequencies[fr_cat]
+
+    if total_frequencies != 0:
+        for fr_cat in frequencies.keys():
+            frequencies[fr_cat] = frequencies[fr_cat] / total_frequencies
+
+    print(frequencies, total_frequencies)
+
+    # Calculating the final interactions between each living being
+    counter = 0
+    for r in relations:
+        random_number = ran.random()
+        frequency = frequencies[r[1]]
+        
+        if random_number < frequency:
+            # Relation depends on conectivity factor
+            if r[0] == 1:
+                r.append(1)
+            # relation depends on ANM's result
+            if r[0] == 2:
+                r.append(1)
+            # relation depends on inverse ANM's result
+            if r[0] == 3:
+                r.append(1)
+        else:
+            r.append(0)
+
+        counter += 1
+    print(habitat_l)
+
+    

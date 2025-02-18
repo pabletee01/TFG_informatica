@@ -112,9 +112,6 @@ def classifier(c_name: str, cout_name: str, config_file: str):
         print(diet)
         n += 1
 
-        # variable that stores the number of categories associated to each living being that consume other living beings
-        animal['consuming_classes'] = 0
-
         # Iterating over each category defined in configuration
         for category, details in engine_config.items():
 
@@ -147,16 +144,9 @@ def classifier(c_name: str, cout_name: str, config_file: str):
                 
                 if flag_or == 1:
                     animal['class'].append(category)
-                    # checking if this is a category that consumes other living beings
-                    if 'relations' in details.keys():
-                        animal['consuming_classes'] += 1
-
 
                 if flag_and == 1:
                     animal['class'].append(category)
-                    # checking if this is a category that consumes other living beings
-                    if 'relations' in details.keys():
-                        animal['consuming_classes'] += 1
         
         print(animal)
 
