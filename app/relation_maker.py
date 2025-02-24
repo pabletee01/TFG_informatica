@@ -1,4 +1,4 @@
-from app.app import calculate_ci, calculate_ri, generate_relation
+from app.app import calculate_ci, generate_relation, calculate_ni, calculate_ci_inverse, calculate_ri_inverse, generate_relation_inverse
 import random as ran
 # 1 > 3 > 2 in the matrix
 
@@ -11,7 +11,7 @@ priorities = {
 }
 
 # Method used to calculate the predatory relations between one live being and all other species in the habitat
-def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, connectivity_factor: float, max_mass, min_mass):
+def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, connectivity_factor: float, max_mass, min_mass, ri_value: float):
     classes = l_being['class']
 
     # dictionary where we store each type of 
@@ -26,7 +26,6 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
             if cat in prey.keys():
                 if prey[cat][0] != priorities[prey[cat][0]][dict_matrix[cat]]:
                     prey[cat][1] = cl
-                    print('Hola')
                 prey[cat][0] = priorities[prey[cat][0]][dict_matrix[cat]]
             else:
                 prey[cat] = [dict_matrix[cat], cl]
@@ -81,6 +80,14 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
 
     # Calculating the final interactions between each living being
     counter = 0
+    # Obtaining ni value for the main living being
+    ni1 = calculate_ni(min_mass ,max_mass ,l_being['weight'])
+    ci = calculate_ci(ri_value, ni1)
+    ci_inverse = calculate_ci_inverse(ri_value, ni1)
+    ri_inverse = calculate_ri_inverse(connectivity_factor, ni1)
+    print(ni1)
+    print(len(relations))
+    print(len(habitat_l))
     for r in relations:
         random_number = ran.random()
         frequency = frequencies[r[1]]
@@ -88,17 +95,22 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
         if random_number < frequency:
             # Relation depends on conectivity factor
             if r[0] == 1:
-                r.append(1)
+                random_number_case_1 = ran.random()
+                if random_number_case_1 < connectivity_factor:
+                    r.append(1)
+                else:
+                    r.append(0)   
             # relation depends on ANM's result
             if r[0] == 2:
-                r.append(1)
+                ni2 = calculate_ni(min_mass ,max_mass ,habitat_l[counter]['weight'])
+                r.append(generate_relation(ri_value,ci,ni2))
             # relation depends on inverse ANM's result
             if r[0] == 3:
-                r.append(1)
+                ni2 = calculate_ni(min_mass ,max_mass ,habitat_l[counter]['weight'])
+                r.append(generate_relation_inverse(ri_inverse, ci_inverse, ni2))
         else:
             r.append(0)
 
         counter += 1
-    print(habitat_l)
 
     

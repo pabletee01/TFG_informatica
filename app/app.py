@@ -1,15 +1,17 @@
 import numpy as np
 import pymongo
 
-# Method to obtain ni value with the living being's mass
+ZERO_VALUE = 1e-10
+
+# Method to obtain ni normalized value the living being's mass
 def calculate_ni(min_mass: float, max_mass: float, mass: float):
     # Checking for wrong values
     if min_mass <= 0:
-        min_mass = 1.0
+        min_mass = ZERO_VALUE
     if max_mass <= 0:
-        max_mass = 1.0
+        max_mass = ZERO_VALUE
     if mass <= 0:
-        mass = 1.0
+        mass = ZERO_VALUE
 
     log_mass = np.log10(mass)
     log_max_mass = np.log10(max_mass)
@@ -29,6 +31,7 @@ def obtain_min_max_mass(name: str):
 
     # Obtaining max and min values of the collection:
     min_max = collection.aggregate([
+        {"$match": {"weight": {"$gt": 0}}}, # Filtering 0 values
         {"$group": {"_id": None, "min_weight": {"$min": "$weight"}, "max_weight": {"$max": "$weight"}}}
     ])
 
@@ -72,3 +75,21 @@ def fill_matrix(list, matrix, C):
             positiony += 1
         positiony = 0
         positionx += 1
+
+#### REVISAR
+def calculate_ri_inverse(C, nin):
+    ni = np.random.uniform(0,1)
+    ni_aux = (1-nin) * (1-(1-ni)**(1/2*C))
+    return ni_aux
+
+def calculate_ci_inverse(ri, ni):
+    return np.random.uniform(ni, 1-ri/2)
+
+def generate_relation_inverse(ri, ci, ni2):
+
+    low = ci - ri/2
+    top = ci + ri/2
+    if low < ni2 < top:
+        return 1
+    else:
+        return 0

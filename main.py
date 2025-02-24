@@ -8,6 +8,7 @@ from mongodb.read_collection import read_habitat_curated
 from app.relation_maker import calculate_relations
 from app.app import obtain_min_max_mass
 from app.app import calculate_ni
+from app.app import calculate_ri
 import pytest
 
 C = 0.3
@@ -16,16 +17,19 @@ def main():
 
     parser = argparse.ArgumentParser(description="ANM Application")
     parser.add_argument(
-        "-t", "--test", action="store_true", help="Run the tests instead of the application"
+        "-t", "--test", action="store_true", help="Run the tests instead of the application."
     )
     parser.add_argument(
-        "-c", "--classifier", action="store_true", help="Start testing classifier"
+        "-c", "--classifier", action="store_true", help="Start testing classifier."
     )
     parser.add_argument(
-        "-m", "--matrix_maker", action="store_true", help="Start testing matrix maker"
+        "-m", "--matrix_maker", action="store_true", help="Start testing matrix maker."
     )
     parser.add_argument(
-        "-r", "--relation_maker", action="store_true", help="Start testing relation maker"
+        "-r", "--relation_maker", action="store_true", help="Start testing relation maker."
+    )
+    parser.add_argument(
+        "-n", "--ni_maker", action="store_true", help="Testing the calculation of the ni value."
     )
 
     args = parser.parse_args()
@@ -41,19 +45,34 @@ def main():
         formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
         classifier("collection1","collection2","classifier.yaml")
         matrix_maker("classifier.yaml")
+    elif args.ni_maker:
+        formatter("Zona-0_Las_Hoyas-C1.csv","collection1")
+        classifier("collection1","collection2","classifier.yaml")
+        habitat = read_habitat_curated('collection2')
+        min, max =obtain_min_max_mass('collection2')
+        insect = habitat[90]
+        insect2 = habitat[91]
+        insect3 = habitat[92]
+        insect4 = habitat[93]
+        print(insect['name'],min, max, insect['weight'],calculate_ni(min, max, insect['weight']))
+        print(insect2['name'],min, max, insect2['weight'],calculate_ni(min, max, insect2['weight']))
+        print(insect3['name'],min, max, insect3['weight'],calculate_ni(min, max, insect3['weight']))
+        print(insect4['name'],min, max, insect4['weight'],calculate_ni(min, max, insect4['weight']))
+        print('test_high_weight',min,max,max, calculate_ni(min,max,max))
+        print('test_low_weight',min,max, min, calculate_ni(min,max, min))
     elif args.relation_maker:
         formatter("Zona-0_Las_Hoyas-C1.csv","collection1")
         classifier("collection1","collection2","classifier.yaml")
-        matrix_h = matrix_maker("classifier.yaml")
         habitat = read_habitat_curated('collection2')
+        matrix_h = matrix_maker("classifier.yaml")
         insect = habitat[90]
         print(insect)
         relations = []
-        min, max =obtain_min_max_mass('collection2')
-        print(calculate_ni(min, max, insect['weight']))
-
-        # calculate_relations(insect, matrix_h, relations, habitat, 0.85)
-
+        min, max = obtain_min_max_mass('collection2')
+        print(insect['name'],min, max, insect['weight'],calculate_ni(min, max, insect['weight']))
+        ri = calculate_ri(C)
+        calculate_relations(insect, matrix_h, relations, habitat, C, max, min, ri)
+        # print(relations)
     # Normal mode
     else:
 
