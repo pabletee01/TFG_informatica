@@ -9,9 +9,10 @@ from app.relation_maker import calculate_relations
 from app.app import obtain_min_max_mass
 from app.app import calculate_ni
 from app.app import calculate_ri
+from app.app import calculate_ri_inverse
 import pytest
 
-C = 0.3
+C = 0.9
 
 def main():
 
@@ -30,6 +31,9 @@ def main():
     )
     parser.add_argument(
         "-n", "--ni_maker", action="store_true", help="Testing the calculation of the ni value."
+    )
+    parser.add_argument(
+        "-g", "--generation_test", action="store_true", help="Testing how the distributions work."
     )
 
     args = parser.parse_args()
@@ -65,14 +69,22 @@ def main():
         classifier("collection1","collection2","classifier.yaml")
         habitat = read_habitat_curated('collection2')
         matrix_h = matrix_maker("classifier.yaml")
-        insect = habitat[90]
+        insect = habitat[154]
         print(insect)
         relations = []
         min, max = obtain_min_max_mass('collection2')
         print(insect['name'],min, max, insect['weight'],calculate_ni(min, max, insect['weight']))
-        ri = calculate_ri(C)
-        calculate_relations(insect, matrix_h, relations, habitat, C, max, min, ri)
-        # print(relations)
+        calculate_relations(insect, matrix_h, relations, habitat, C, max, min)
+        print(relations)
+    elif args.generation_test:
+        i = 0.0
+        for z in range(10000):
+            i += calculate_ri(C,0.9)
+        print(f"normal: {i/10000}")
+        i = 0.0
+        for z in range(10000):
+            i += calculate_ri_inverse(C,0.9)
+        print(f"inverse: {i/10000}")
     # Normal mode
     else:
 

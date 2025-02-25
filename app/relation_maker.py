@@ -1,4 +1,4 @@
-from app.app import calculate_ci, generate_relation, calculate_ni, calculate_ci_inverse, calculate_ri_inverse, generate_relation_inverse
+from app.app import calculate_ci, generate_relation, calculate_ni, calculate_ci_inverse, calculate_ri_inverse, generate_relation_inverse, calculate_ri
 import random as ran
 # 1 > 3 > 2 in the matrix
 
@@ -11,7 +11,7 @@ priorities = {
 }
 
 # Method used to calculate the predatory relations between one live being and all other species in the habitat
-def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, connectivity_factor: float, max_mass, min_mass, ri_value: float):
+def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, connectivity_factor: float, max_mass, min_mass):
     classes = l_being['class']
 
     # dictionary where we store each type of 
@@ -60,12 +60,12 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
     # Calculating the frecuency of each category appearing in all the living being relations.
     frequencies = {}
     for r in relations:
-        if r[1] in frequencies.keys():
-            frequencies[r[1]] += 1
+        if r[0] in frequencies.keys():
+            frequencies[r[0]] += 1
         else:
-            frequencies[r[1]] = 1
-    if '' in frequencies.keys():
-        frequencies[''] = 0
+            frequencies[r[0]] = 1
+    if 0 in frequencies.keys():
+        frequencies[0] = 0
 
     total_frequencies = 0
 
@@ -82,15 +82,19 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
     counter = 0
     # Obtaining ni value for the main living being
     ni1 = calculate_ni(min_mass ,max_mass ,l_being['weight'])
+    ri_value = calculate_ri(connectivity_factor, ni1)
     ci = calculate_ci(ri_value, ni1)
-    ci_inverse = calculate_ci_inverse(ri_value, ni1)
     ri_inverse = calculate_ri_inverse(connectivity_factor, ni1)
-    print(ni1)
-    print(len(relations))
-    print(len(habitat_l))
+    ci_inverse = calculate_ci_inverse(ri_inverse, ni1)
+    print("ni value: "+str(ni1))
+    print("ri value: "+str(ri_value))
+    print("ci value: "+str(ci))
+    print("ri inverse value: "+str(ri_inverse))
+    print("ci inverse value: "+str(ci_inverse))
+    print(l_being)
     for r in relations:
         random_number = ran.random()
-        frequency = frequencies[r[1]]
+        frequency = frequencies[r[0]]
         
         if random_number < frequency:
             # Relation depends on conectivity factor

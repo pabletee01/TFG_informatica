@@ -42,9 +42,9 @@ def obtain_min_max_mass(name: str):
     return None, None
 
 # Method to calculate feeding range
-def calculate_ri(C):
-    ni = np.random.uniform(0,1)
-    return 1-(1-ni)**(1/2*C)
+def calculate_ri(C, nin):
+    xi = np.random.beta(C, 1)
+    return nin * xi
 
 # Method to calculate feeding optimum
 def calculate_ci(ri, ni):
@@ -78,9 +78,8 @@ def fill_matrix(list, matrix, C):
 
 #### REVISAR
 def calculate_ri_inverse(C, nin):
-    ni = np.random.uniform(0,1)
-    ni_aux = (1-nin) * (1-(1-ni)**(1/2*C))
-    return ni_aux
+    yi = np.random.beta(C, 1)
+    return (1 - nin) * yi
 
 def calculate_ci_inverse(ri, ni):
     return np.random.uniform(ni, 1-ri/2)
