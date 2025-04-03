@@ -22,7 +22,7 @@ def create_csv(matrix: list):
     
     for i in range(shape):
         id.append(i+1)
-        label.append(i+1)
+        label.append(matrix[i][0])
         size.append(10)
     
     source = []
@@ -31,7 +31,7 @@ def create_csv(matrix: list):
     
     for i in range(shape):
         for j in range(shape):
-            if matrix[i][j] == 1:
+            if matrix[i][1][j][2] == 1:
                 source.append(i+1)
                 target.append(j+1)
     

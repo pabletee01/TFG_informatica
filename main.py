@@ -12,7 +12,7 @@ from app.app import calculate_ri
 from app.app import calculate_ri_inverse
 import pytest
 
-C = 0.9
+C = 0.15
 
 def main():
 
@@ -87,19 +87,23 @@ def main():
         print(f"inverse: {i/10000}")
     # Normal mode
     else:
-
         print("Starting ANM application...")
-        N = int(input("Introduce the number of animals to generate: "))
-        animals = create_random_list(N)
-        print(animals)
-        matrix = create_matrix(N)
-
-        fill_matrix(animals, matrix, C)
-        for fila in matrix:
-            print(fila)
-            
-        create_csv(matrix)
-        
+        habitat_file=input("Enter the habitat's file name: ")
+        formatter(habitat_file,"collection1")
+        classifier("collection1","collection2","classifier.yaml")
+        habitat = read_habitat_curated('collection2')
+        matrix_h = matrix_maker("classifier.yaml")
+        final_matrix = []
+        min, max = obtain_min_max_mass('collection2')
+        for l_being in habitat:
+            print(l_being)
+            relations = []
+            habitataux = read_habitat_curated('collection2')
+            calculate_relations(l_being, matrix_h, relations, habitataux, C, max, min)
+            l_being_set = (l_being['name'], relations)
+            final_matrix.append(l_being_set)
+        print(final_matrix)
+        create_csv(final_matrix)
         print("App finished")
 
 if __name__ == "__main__":
