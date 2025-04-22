@@ -91,7 +91,12 @@ def engine_loader(classifier: str):
 def classifier(c_name: str, cout_name: str, config_file: str):
     all_documents = read_habitat(c_name)
 
-    engine_config = engine_loader(config_file)
+    try:
+        engine_config = engine_loader(config_file)
+    except FileNotFoundError as e:
+        print(f"Error: configuration file not found {e}")
+        return False
+
 
     # Checking format errors in configuration file
     if engine_config == None:

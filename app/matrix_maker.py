@@ -2,7 +2,14 @@ from app.classifier import engine_loader
 
 def matrix_maker(config_file: str):
 
-    config = engine_loader(config_file)
+    try:
+        config = engine_loader(config_file)
+    except FileNotFoundError as e:
+        print(f"Error: configuration file not found")
+        return False
+    except Exception as e:
+        print(f"Unexpected error while loading the configuration file: {e}")
+        return False
 
     if config == None:
         return False
