@@ -12,7 +12,7 @@ def create_random_list(N: int):
     return animals
     
 # Creates Gephi node CSV.
-def create_csv(matrix: list):
+def create_csv(matrix: list, name: str):
     
     shape = len(matrix)
     
@@ -46,7 +46,7 @@ def create_csv(matrix: list):
         "Target": target
     })
     
-    arrow_map.to_csv("data/arrow_map.csv", index = False)
-    node_map.to_csv("data/node_map.csv", index = False)
+    arrow_map.to_csv("data/results/"+name+"_arrow_map.csv", index = False)
+    node_map.to_csv("data/results/"+name+"_node_map.csv", index = False)
     
     print("CSV file created succesfully")

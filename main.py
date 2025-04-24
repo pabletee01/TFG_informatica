@@ -10,6 +10,7 @@ from app.app import obtain_min_max_mass
 from app.app import calculate_ni
 from app.app import calculate_ri
 from app.app import calculate_ri_inverse
+from app.ui import main_window
 import pytest
 
 C = 0.15
@@ -35,7 +36,9 @@ def main():
     parser.add_argument(
         "-g", "--generation_test", action="store_true", help="Testing how the distributions work."
     )
-
+    parser.add_argument(
+        "-u", "--ui", action="store_true", help="Testing how the ui works."
+    )
     args = parser.parse_args()
 
     # Test mode
@@ -85,26 +88,45 @@ def main():
         for z in range(10000):
             i += calculate_ri_inverse(C,0.9)
         print(f"inverse: {i/10000}")
+    elif args.ui:
+        selected_values = main_window()
+        habitat_file = selected_values[0]
+        cl = selected_values[1]
+        print(selected_values)
+        formatter(habitat_file,"collection1")
+        classifier("collection1","collection2",cl)
+        
     # Normal mode
     else:
         print("Starting ANM application...")
-        habitat_file=input("Enter the habitat's file name: ")
-        formatter(habitat_file,"collection1")
-        classifier("collection1","collection2","classifier.yaml")
-        habitat = read_habitat_curated('collection2')
-        matrix_h = matrix_maker("classifier.yaml")
-        final_matrix = []
-        min, max = obtain_min_max_mass('collection2')
-        for l_being in habitat:
-            print(l_being)
-            relations = []
-            habitataux = read_habitat_curated('collection2')
-            calculate_relations(l_being, matrix_h, relations, habitataux, C, max, min)
-            l_being_set = (l_being['name'], relations)
-            final_matrix.append(l_being_set)
-        print(final_matrix)
-        create_csv(final_matrix)
-        print("App finished")
+        # Main loop of the application
+        while True:
+            selected_values = main_window()
+            habitat_file = selected_values[0]
+            cl = selected_values[1]
+            
+            if not selected_values[0] or not selected_values[1]:
+                print("App finished")
+                return
+            
+            if not formatter(habitat_file,"collection1") or not classifier("collection1","collection2",cl):
+                print("App finished")
+                return
+            
+            habitat = read_habitat_curated('collection2')
+            matrix_h = matrix_maker(cl)
+            final_matrix = []
+            min, max = obtain_min_max_mass('collection2')
+            for l_being in habitat:
+                print(l_being)
+                relations = []
+                habitataux = read_habitat_curated('collection2')
+                calculate_relations(l_being, matrix_h, relations, habitataux, C, max, min)
+                l_being_set = (l_being['name'], relations)
+                final_matrix.append(l_being_set)
+            print(final_matrix)
+            create_csv(final_matrix,habitat_file)
+            print("Processing finished")
 
 if __name__ == "__main__":
     main()
