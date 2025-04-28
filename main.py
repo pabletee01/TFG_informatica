@@ -11,7 +11,10 @@ from app.app import calculate_ni
 from app.app import calculate_ri
 from app.app import calculate_ri_inverse
 from app.ui import main_window
+from app.metrics import analyze_network
+from app.metrics import save_metrics
 import pytest
+import pandas as pd
 
 C = 0.15
 
@@ -38,6 +41,9 @@ def main():
     )
     parser.add_argument(
         "-u", "--ui", action="store_true", help="Testing how the ui works."
+    )
+    parser.add_argument(
+        "-me", "--metrics", action="store_true", help="Testing how the metrics calculator."
     )
     args = parser.parse_args()
 
@@ -95,6 +101,11 @@ def main():
         print(selected_values)
         formatter(habitat_file,"collection1")
         classifier("collection1","collection2",cl)
+    elif args.metrics:
+        node_df = pd.read_csv("data/results/Zona-0_Las_Hoyas-C1.csv_node_map.csv")
+        arrow_df = pd.read_csv("data/results/Zona-0_Las_Hoyas-C1.csv_arrow_map.csv")
+        metrics = analyze_network(arrow_df, node_df)
+        save_metrics(metrics, "data/metrics/Zona-0_Las_Hoyas-C1_metrics")
         
     # Normal mode
     else:
