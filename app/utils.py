@@ -1,5 +1,13 @@
 import pandas as pd
 import random as rn
+from app.formatter import formatter
+from app.classifier import classifier
+from mongodb.read_collection import read_habitat_curated
+from app.relation_maker import calculate_relations
+from app.matrix_maker import matrix_maker
+from app.app import obtain_min_max_mass
+
+C = 0.15
 
 # Used to create a predation matrix.
 def create_matrix(N: int):
@@ -50,3 +58,32 @@ def create_csv(matrix: list, name: str):
     node_map.to_csv("data/results/"+name+"_node_map.csv", index = False)
     
     print("CSV file created succesfully")
+    
+    
+def load_habitat_method(selected_values: list):
+    
+    habitat_file = selected_values[0]
+    cl = selected_values[1]
+    
+    if not selected_values[0] or not selected_values[1]:
+        print("Habitat or configuration files not selected")
+        return
+    
+    if not formatter(habitat_file,"collection1") or not classifier("collection1","collection2",cl):
+        print("Application failed to load the habitat. Returning...")
+        return
+    
+    habitat = read_habitat_curated('collection2')
+    matrix_h = matrix_maker(cl)
+    final_matrix = []
+    min, max = obtain_min_max_mass('collection2')
+    for l_being in habitat:
+        print(l_being)
+        relations = []
+        habitataux = read_habitat_curated('collection2')
+        calculate_relations(l_being, matrix_h, relations, habitataux, C, max, min)
+        l_being_set = (l_being['name'], relations)
+        final_matrix.append(l_being_set)
+    print(final_matrix)
+    create_csv(final_matrix,habitat_file)
+    print("Processing finished")
