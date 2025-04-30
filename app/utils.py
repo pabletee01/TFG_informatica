@@ -6,8 +6,9 @@ from mongodb.read_collection import read_habitat_curated
 from app.relation_maker import calculate_relations
 from app.matrix_maker import matrix_maker
 from app.app import obtain_min_max_mass
+from app.metrics import analyze_network, save_metrics
 
-C = 0.15
+
 
 # Used to create a predation matrix.
 def create_matrix(N: int):
@@ -60,7 +61,7 @@ def create_csv(matrix: list, name: str):
     print("CSV file created succesfully")
     
     
-def load_habitat_method(selected_values: list):
+def load_habitat_method(selected_values: list, C: float):
     
     habitat_file = selected_values[0]
     cl = selected_values[1]
@@ -85,5 +86,14 @@ def load_habitat_method(selected_values: list):
         l_being_set = (l_being['name'], relations)
         final_matrix.append(l_being_set)
     print(final_matrix)
-    create_csv(final_matrix,habitat_file)
+    
+    # Name of the result files
+    habitat_result_name = habitat_file.removesuffix(".csv")
+    
+    create_csv(final_matrix,habitat_result_name)
+    node_df = pd.read_csv("data/results/"+habitat_result_name+"_node_map.csv")
+    arrow_df = pd.read_csv("data/results/"+habitat_result_name+"_arrow_map.csv")
+    metrics = analyze_network(arrow_df, node_df)
+    save_metrics(metrics, "data/metrics/"+habitat_result_name+"_metrics")
+    
     print("Processing finished")
