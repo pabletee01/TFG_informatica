@@ -11,6 +11,7 @@ from app.app import calculate_ri_inverse
 from app.ui import main_menu
 from app.metrics import analyze_network
 from app.metrics import save_metrics
+from app.graph import generate_graph_png
 import pytest
 import pandas as pd
 
@@ -42,6 +43,9 @@ def main():
     )
     parser.add_argument(
         "-me", "--metrics", action="store_true", help="Testing how the metrics calculator."
+    )
+    parser.add_argument(
+        "-gr", "--graph", action="store_true", help="Testing the visualization of a graph"
     )
     args = parser.parse_args()
 
@@ -99,6 +103,9 @@ def main():
         arrow_df = pd.read_csv("data/results/Zona-0_Las_Hoyas-C1.csv_arrow_map.csv")
         metrics = analyze_network(arrow_df, node_df)
         save_metrics(metrics, "data/metrics/Zona-0_Las_Hoyas-C1_metrics")
+    elif args.graph:
+        generate_graph_png("data/results/Zona-0_Las_Hoyas-C1_node_map.csv","data/results/Zona-0_Las_Hoyas-C1_arrow_map.csv","test.png")
+        
         
     # Normal mode
     else:

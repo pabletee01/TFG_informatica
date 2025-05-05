@@ -5,3 +5,5 @@ pyyaml
 cerberus
 pymongo
 networkx
+matplotlib
+scipy

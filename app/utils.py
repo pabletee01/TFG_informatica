@@ -36,6 +36,7 @@ def create_csv(matrix: list, name: str):
     
     source = []
     target = []
+    typer = []
     
     
     for i in range(shape):
@@ -43,6 +44,7 @@ def create_csv(matrix: list, name: str):
             if matrix[i][1][j][2] == 1:
                 source.append(i+1)
                 target.append(j+1)
+                typer.append(matrix[i][1][j][0])
     
     node_map = pd.DataFrame({
         "Id": id,
@@ -52,7 +54,8 @@ def create_csv(matrix: list, name: str):
     
     arrow_map = pd.DataFrame({
         "Source": source,
-        "Target": target
+        "Target": target,
+        "Type": typer
     })
     
     arrow_map.to_csv("data/results/"+name+"_arrow_map.csv", index = False)
@@ -90,7 +93,10 @@ def load_habitat_method(selected_values: list, C: float):
     # Name of the result files
     habitat_result_name = habitat_file.removesuffix(".csv")
     
+    # Storing node map data
     create_csv(final_matrix,habitat_result_name)
+    
+    # Creating metrics file
     node_df = pd.read_csv("data/results/"+habitat_result_name+"_node_map.csv")
     arrow_df = pd.read_csv("data/results/"+habitat_result_name+"_arrow_map.csv")
     metrics = analyze_network(arrow_df, node_df)
