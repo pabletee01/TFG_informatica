@@ -1,5 +1,6 @@
 from app.app import calculate_ci, generate_relation, calculate_ni, calculate_ci_inverse, calculate_ri_inverse, generate_relation_inverse, calculate_ri
 import random as ran
+from app.logger import logger
 # 1 > 3 > 2 in the matrix
 
 # dict to set predatory relation without conditionals
@@ -35,9 +36,9 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
     
     
 
-    print(matrix)
-    print(prey)
-    print(classes)
+    logger.debug(matrix)
+    logger.debug(prey)
+    logger.debug(classes)
 
     habitat_l = []
     # recopiling all predatory interactions of the given living being.
@@ -48,12 +49,12 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
         for cat in lb['class']:
             # Calculating the value of predation type based on categories and priorities
             if cat in prey.keys():
-                print(lb['name'] + ' predation type: ' + str(prey[cat][0]))
+                logger.debug(lb['name'] + ' predation type: ' + str(prey[cat][0]))
                 if rel[0] != priorities[rel[0]][prey[cat][0]]:
                     rel[1] = prey[cat][1]
                 rel[0] = priorities[rel[0]][prey[cat][0]]
         
-        print(rel)
+        logger.debug(rel)
         # 1 in rel means predation is determined by the connectivity factor:
         relations.append(rel)
 
@@ -76,7 +77,7 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
         for fr_cat in frequencies.keys():
             frequencies[fr_cat] = frequencies[fr_cat] / total_frequencies
 
-    print(frequencies, total_frequencies)
+    logger.debug(frequencies, total_frequencies)
 
     # Calculating the final interactions between each living being
     counter = 0
@@ -86,12 +87,12 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
     ci = calculate_ci(ri_value, ni1)
     ri_inverse = calculate_ri_inverse(connectivity_factor, ni1)
     ci_inverse = calculate_ci_inverse(ri_inverse, ni1)
-    print("ni value: "+str(ni1))
-    print("ri value: "+str(ri_value))
-    print("ci value: "+str(ci))
-    print("ri inverse value: "+str(ri_inverse))
-    print("ci inverse value: "+str(ci_inverse))
-    print(l_being)
+    logger.debug("ni value: "+str(ni1))
+    logger.debug("ri value: "+str(ri_value))
+    logger.debug("ci value: "+str(ci))
+    logger.debug("ri inverse value: "+str(ri_inverse))
+    logger.debug("ci inverse value: "+str(ci_inverse))
+    logger.debug(l_being)
     for r in relations:
         random_number = ran.random()
         frequency = frequencies[r[0]]

@@ -4,6 +4,7 @@ import sys
 from mongodb.read_collection import read_habitat
 from mongodb.create_collection import insert_habitat_curated
 from cerberus import Validator
+from app.logger import logger
 
 # Format that each category in the configuration file must follow:
 SCHEMA = {
@@ -77,12 +78,12 @@ def engine_loader(classifier: str):
     if is_error_f:
         return engine_data
     else:
-        print("Validation errors:")
+        logger.error("Validation errors:")
         for error in errors:
             for field, errors in error:
-                print(f"- In {field}:", file=sys.stderr)
+                logger.error(f"- In {field}:", file=sys.stderr)
                 for error in errors:
-                    print(f"   {error}", file=sys.stderr)
+                    logger.error(f"   {error}", file=sys.stderr)
             return None
 
     
@@ -94,7 +95,7 @@ def classifier(c_name: str, cout_name: str, config_file: str):
     try:
         engine_config = engine_loader(config_file)
     except FileNotFoundError as e:
-        print(f"Error: configuration file not found {e}")
+        logger.errors(f"Error: configuration file not found {e}")
         return False
 
 
@@ -108,13 +109,13 @@ def classifier(c_name: str, cout_name: str, config_file: str):
 
     # Iterating over each animal of the document
     for animal in all_documents:
-        print(f"{n}: {animal}")
+        logger.debug(f"{n}: {animal}")
 
         diet = animal['diet'].split('|')
 
         animal['class'] = []
 
-        print(diet)
+        logger.debug(diet)
         n += 1
 
         # Iterating over each category defined in configuration
@@ -153,7 +154,7 @@ def classifier(c_name: str, cout_name: str, config_file: str):
                 if flag_and == 1:
                     animal['class'].append(category)
         
-        print(animal)
+        logger.debug(animal)
 
         animal_list_curated.append(animal)
 

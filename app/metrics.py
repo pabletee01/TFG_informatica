@@ -1,6 +1,7 @@
 import networkx as nx
 import pandas as pd
 import os
+from app.logger import logger
 
 def analyze_network(arrow_df, node_df):
     G = nx.DiGraph()
@@ -41,3 +42,4 @@ def save_metrics(metrics, output_path):
     df = pd.DataFrame([metrics])
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df.to_csv(output_path, index=False)
+    logger.info("Metrics file generated")

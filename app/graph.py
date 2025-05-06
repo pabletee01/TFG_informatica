@@ -1,6 +1,7 @@
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
+from app.logger import logger
 
 def generate_graph_png(node_csv, edge_csv, output_path="graph_output.png"):
 
@@ -19,13 +20,13 @@ def generate_graph_png(node_csv, edge_csv, output_path="graph_output.png"):
 
     # Calculating layout for nodes
     # pos = nx.spring_layout(G, k=0.15, iterations=50)
-    pos = nx.kamada_kawai_layout(G, scale=1500)
+    pos = nx.kamada_kawai_layout(G, scale=15)
 
     # Get sizes with fallback
     node_sizes = [sizes.get(n, 10) * 10 for n in G.nodes()] 
 
     # Draw
-    plt.figure(figsize=(22, 22))
+    plt.figure(figsize=(20, 20))
     nx.draw(G, pos,
             with_labels=False,
             node_size=node_sizes,
@@ -40,4 +41,6 @@ def generate_graph_png(node_csv, edge_csv, output_path="graph_output.png"):
     plt.title("habitat", fontsize=16)
     # plt.tight_layout()
     plt.savefig(output_path, format="png", dpi=300)
+    
     plt.close()
+    logger.info("PNG generated")

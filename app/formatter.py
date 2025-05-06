@@ -2,6 +2,7 @@ from mongodb.create_collection import insert_habitat
 import pandas as pd
 import os
 import sys
+from app.logger import logger
 
 N_CSV_COLUMNS = 10
 
@@ -13,10 +14,10 @@ def formatter(file: str, c_name: str):
     try:
         df = pd.read_csv(filea, header=None, on_bad_lines='error')
     except FileNotFoundError:
-        print(f"{file} not found in data/habitats directory", file=sys.stderr)
+        logger.error(f"{file} not found in data/habitats directory", file=sys.stderr)
         return False
     except Exception as e:
-        print(f"Unexpected error while reading {file}: {e}", file=sys.stderr)
+        logger.error(f"Unexpected error while reading {file}: {e}", file=sys.stderr)
         return False
 
     animal_list = []
@@ -38,7 +39,7 @@ def formatter(file: str, c_name: str):
             }
             animal_list.append(animal)
     except Exception as e:
-        print(f"Unexpected error while reading {file}: {e}", file=sys.stderr)
+        logger.error(f"Unexpected error while reading {file}: {e}", file=sys.stderr)
         return False
 
     # Inserting the newly formed habitat in the database

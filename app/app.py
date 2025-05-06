@@ -1,5 +1,6 @@
 import numpy as np
 import pymongo
+from app.logger import logger
 
 ZERO_VALUE = 1e-10
 
@@ -69,7 +70,7 @@ def fill_matrix(list, matrix, C):
     for ni in list:
         ri = calculate_ri(C)
         ci = calculate_ci(ri, ni)
-        print(f"{positionx+1}-> ni: {ni}, ri: {ri}, ci: {ci}")
+        logger.debug(f"{positionx+1}-> ni: {ni}, ri: {ri}, ci: {ci}")
         for ni2 in list:
             matrix[positionx][positiony] = generate_relation(ri, ci, ni2)
             positiony += 1

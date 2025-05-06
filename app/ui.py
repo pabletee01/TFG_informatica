@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import os
 from app.utils import load_habitat_method
+from PIL import Image, ImageTk
 
 C_value = 0.15
 
@@ -38,6 +39,34 @@ def load_metrics_popup(filename, route_metrics):
     except Exception as e:
         messagebox.showerror("Error", f"Failed to read metrics:\n{str(e)}")
 
+def load_graph_image_popup(filename, route):
+    # Checking if a selection has been made
+    if not filename:
+        messagebox.showwarning("No selection", "Please select a graph image file.")
+        return
+
+    # Checking if the introduced file exists
+    filepath = os.path.join(route, filename)
+    if not os.path.isfile(filepath):
+        messagebox.showerror("File not found", f"Could not find: {filepath}")
+        return
+
+    # Loading the graph representation (possible improvement)
+    try:
+        popup = tk.Toplevel()
+        popup.title(f"Graph: {filename}")
+        popup.configure(bg="#f0f0f0")
+
+        img = Image.open(filepath)
+        img = img.resize((1100, 1100), Image.Resampling.LANCZOS)
+        photo = ImageTk.PhotoImage(img)
+
+        label = tk.Label(popup, image=photo)
+        label.image = photo  # Keep reference
+        label.pack(padx=10, pady=10)
+
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to open image:\n{str(e)}")
 
 # Methods to load windows
 
@@ -119,9 +148,62 @@ def load_habitat(main_frame):
 
 # Command to load the graph representation widgets
 def view_habitat(main_frame):
-    # Placeholder
+    # Clear the main frame
     clear_frame(main_frame)
-    tk.Label(main_frame, text="View Habitat - Not implemented yet", font=("Helvetica", 16), bg="#f0f0f0").pack(pady=100)
+    
+    # Style configuration for ttk Combobox
+    style = ttk.Style()
+    style.theme_use('clam')
+    style.configure("TCombobox",
+                    fieldbackground="white",
+                    background="#dfe6e9",
+                    font=("Helvetica", 12),
+                    padding=5)
+
+    # Configure main frame layout and style
+    main_frame.grid_columnconfigure(0, weight=1)
+    main_frame.configure(bg="#f0f0f0")
+
+    # Title
+    title = tk.Label(main_frame,
+                     text="View Habitat",
+                     font=("Helvetica", 16, "bold"),
+                     bg="#f0f0f0")
+    title.grid(row=0, column=0, pady=(30, 10))
+
+    # List metrics files
+    route_habitat = os.path.join("data", "graphs")
+    files_habitat = []
+    for _, _, files in os.walk(route_habitat):
+        files_habitat.extend(files)
+
+    # Selection frame
+    selection_frame = tk.Frame(main_frame, bg="#f0f0f0")
+    selection_frame.grid(row=1, column=0, pady=10)
+
+    tk.Label(selection_frame,
+             text="Select habitat graph file:",
+             bg="#f0f0f0",
+             font=("Helvetica", 12)).pack(anchor="w")
+
+    combo = ttk.Combobox(selection_frame, values=files_habitat, state="readonly", width=60)
+    combo.pack()
+
+    # Button frame
+    button_frame = tk.Frame(main_frame, bg="#f0f0f0")
+    button_frame.grid(row=2, column=0, pady=30)
+
+    load_button = tk.Button(
+        button_frame,
+        text="Load",
+        font=("Helvetica", 14),
+        bg="#77dd77",
+        fg="white",
+        command=lambda: load_graph_image_popup(combo.get(), route_habitat)
+    )
+    
+    load_button.pack()
+
 
 # Command to load the view metrics widgets
 def view_metrics(main_frame):

@@ -14,7 +14,7 @@ from app.metrics import save_metrics
 from app.graph import generate_graph_png
 import pytest
 import pandas as pd
-
+from app.logger import logger
 C = 0.15
 
 def main():
@@ -51,7 +51,7 @@ def main():
 
     # Test mode
     if args.test:
-        print("Running tests")
+        logger.info("Running tests")
         pytest.main(['-v'])
     elif args.classifier:
         formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
@@ -69,33 +69,33 @@ def main():
         insect2 = habitat[91]
         insect3 = habitat[92]
         insect4 = habitat[93]
-        print(insect['name'],min, max, insect['weight'],calculate_ni(min, max, insect['weight']))
-        print(insect2['name'],min, max, insect2['weight'],calculate_ni(min, max, insect2['weight']))
-        print(insect3['name'],min, max, insect3['weight'],calculate_ni(min, max, insect3['weight']))
-        print(insect4['name'],min, max, insect4['weight'],calculate_ni(min, max, insect4['weight']))
-        print('test_high_weight',min,max,max, calculate_ni(min,max,max))
-        print('test_low_weight',min,max, min, calculate_ni(min,max, min))
+        logger.debug(insect['name'],min, max, insect['weight'],calculate_ni(min, max, insect['weight']))
+        logger.debug(insect2['name'],min, max, insect2['weight'],calculate_ni(min, max, insect2['weight']))
+        logger.debug(insect3['name'],min, max, insect3['weight'],calculate_ni(min, max, insect3['weight']))
+        logger.debug(insect4['name'],min, max, insect4['weight'],calculate_ni(min, max, insect4['weight']))
+        logger.debug('test_high_weight',min,max,max, calculate_ni(min,max,max))
+        logger.debug('test_low_weight',min,max, min, calculate_ni(min,max, min))
     elif args.relation_maker:
         formatter("Zona-0_Las_Hoyas-C1.csv","collection1")
         classifier("collection1","collection2","classifier.yaml")
         habitat = read_habitat_curated('collection2')
         matrix_h = matrix_maker("classifier.yaml")
         insect = habitat[154]
-        print(insect)
+        logger.info(insect)
         relations = []
         min, max = obtain_min_max_mass('collection2')
-        print(insect['name'],min, max, insect['weight'],calculate_ni(min, max, insect['weight']))
+        logger.debug(insect['name'],min, max, insect['weight'],calculate_ni(min, max, insect['weight']))
         calculate_relations(insect, matrix_h, relations, habitat, C, max, min)
-        print(relations)
+        logger.debug(relations)
     elif args.generation_test:
         i = 0.0
         for z in range(10000):
             i += calculate_ri(C,0.9)
-        print(f"normal: {i/10000}")
+        logger.debug(f"normal: {i/10000}")
         i = 0.0
         for z in range(10000):
             i += calculate_ri_inverse(C,0.9)
-        print(f"inverse: {i/10000}")
+        logger.debug(f"inverse: {i/10000}")
     elif args.ui:
         main_menu()
     elif args.metrics:
@@ -109,7 +109,7 @@ def main():
         
     # Normal mode
     else:
-        print("Starting ANM application...")
+        logger.info("Starting ANM application...")
         # Main loop of the application
         #while True:
         #    selected_values = main_window()

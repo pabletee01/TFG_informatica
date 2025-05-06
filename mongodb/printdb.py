@@ -1,5 +1,6 @@
 import pymongo
 from create_collection import insert_relation_matrix
+from app.logger import logger
 
 # Conectar al servidor de MongoDB en localhost
 """client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -8,7 +9,7 @@ collection = db["Zona-0_Las_Hoyas-C1"]
 
 # Consultar un documento
 for item in collection.find():
-    print(item)
+    logger.debug(item)
 
 client.close()"""
 
@@ -26,7 +27,7 @@ db = client["ANMdb_matrix"]
 collection = collection = db["test"]
 
 for item in collection.find():
-    print(item['matrix'])
+    logger.debug(item['matrix'])
 
 collection.delete_many({})
 
