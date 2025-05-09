@@ -9,7 +9,7 @@ from app.app import obtain_min_max_mass
 from app.metrics import analyze_network, save_metrics
 from app.graph import generate_graph_png
 from app.logger import logger
-
+from app.classifier import classifier_habitat
 
 
 # Used to create a predation matrix.
@@ -71,22 +71,24 @@ def load_habitat_method(selected_values: list, C: float):
     habitat_file = selected_values[0]
     cl = selected_values[1]
     
+    logger.info(f"Starting processing of the network with C={C}")
+    
     if not selected_values[0] or not selected_values[1]:
         logger.error("Habitat or configuration files not selected")
         return
     
-    if not formatter(habitat_file,"collection1") or not classifier("collection1","collection2",cl):
+    if not formatter(habitat_file,"collection1") or not classifier("collection1","collection2",cl) or not classifier_habitat("collection2","collection3","habitat_configuration.yaml"):
         logger.error("Application failed to load the habitat. Returning...")
         return
     
-    habitat = read_habitat_curated('collection2')
+    habitat = read_habitat_curated('collection3')
     matrix_h = matrix_maker(cl)
     final_matrix = []
-    min, max = obtain_min_max_mass('collection2')
+    min, max = obtain_min_max_mass('collection3')
     for l_being in habitat:
         logger.debug(l_being)
         relations = []
-        habitataux = read_habitat_curated('collection2')
+        habitataux = read_habitat_curated('collection3')
         calculate_relations(l_being, matrix_h, relations, habitataux, C, max, min)
         l_being_set = (l_being['name'], relations)
         final_matrix.append(l_being_set)

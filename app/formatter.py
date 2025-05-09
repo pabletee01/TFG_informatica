@@ -14,10 +14,10 @@ def formatter(file: str, c_name: str):
     try:
         df = pd.read_csv(filea, header=None, on_bad_lines='error')
     except FileNotFoundError:
-        logger.error(f"{file} not found in data/habitats directory", file=sys.stderr)
+        logger.error(f"{file} not found in data/habitats directory")
         return False
     except Exception as e:
-        logger.error(f"Unexpected error while reading {file}: {e}", file=sys.stderr)
+        logger.error(f"Unexpected error while reading {file}: {e}")
         return False
 
     animal_list = []
@@ -33,13 +33,16 @@ def formatter(file: str, c_name: str):
                 'kingdom': row[1],     # elem1 kingdom of the organism
                 'order': row[2],       # elem2 order of the animal
                 'type': row[3],        # elem3 organism type.
+                'type2': row[4],       # Organism second type
+                'type3': row[5],       # Organism third type
                 'weight': float(row[6]),      # elem6 Absolute mass of the organism 
                 'size': float(row[7]),        # elem7 Absolute size of the organism
-                'diet': row[8]         # elem8 Diet
+                'diet': row[8],               # elem8 Diet
+                'niche': row[9].replace(" ","")  # elem9 Niche
             }
             animal_list.append(animal)
     except Exception as e:
-        logger.error(f"Unexpected error while reading {file}: {e}", file=sys.stderr)
+        logger.error(f"Unexpected error while reading {file}: {e}")
         return False
 
     # Inserting the newly formed habitat in the database

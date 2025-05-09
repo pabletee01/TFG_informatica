@@ -4,7 +4,7 @@ import os
 
 os.makedirs("logs", exist_ok=True)
 
-logger = logging.getLogger("mi_app")
+logger = logging.getLogger("ANN application")
 logger.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')

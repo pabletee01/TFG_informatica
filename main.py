@@ -15,6 +15,11 @@ from app.graph import generate_graph_png
 import pytest
 import pandas as pd
 from app.logger import logger
+from app.classifier import classifier_habitat
+from mongodb.complete_collection import clean_categories
+from mongodb.complete_collection import clean_habitat
+
+
 C = 0.15
 
 def main():
@@ -47,6 +52,13 @@ def main():
     parser.add_argument(
         "-gr", "--graph", action="store_true", help="Testing the visualization of a graph"
     )
+    parser.add_argument(
+        "-ha", "--habitat", action="store_true", help="Testing habitat classification implementation"
+    )
+    parser.add_argument(
+        "-co", "--completer", action="store_true", help="Testing habitat completer"
+    )
+    
     args = parser.parse_args()
 
     # Test mode
@@ -56,6 +68,9 @@ def main():
     elif args.classifier:
         formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
         classifier("collection1","collection1","classifier.yaml")
+        habitat = read_habitat_curated("collection1")
+        for lb in habitat:
+            logger.info(f"{lb['name']}: {lb['class']}")
     elif args.matrix_maker:
         formatter("Zona-2_Marismas_Nacionales-C1.csv","collection1")
         classifier("collection1","collection2","classifier.yaml")
@@ -105,6 +120,21 @@ def main():
         save_metrics(metrics, "data/metrics/Zona-0_Las_Hoyas-C1_metrics")
     elif args.graph:
         generate_graph_png("data/results/Zona-0_Las_Hoyas-C1_node_map.csv","data/results/Zona-0_Las_Hoyas-C1_arrow_map.csv","test.png")
+    elif args.habitat:
+        formatter("Zona-1_Cache_River-C1.csv","collection1")
+        classifier("collection1","collection2","classifier.yaml")
+        classifier_habitat("collection2","collection3","habitat_configuration.yaml")
+        habitat = read_habitat_curated("collection3")
+        for lb in habitat:
+            logger.info(f"{lb['name']}: {lb['habitat']}")
+    elif args.completer:
+        formatter("Zona-0_Las_Hoyas-C1.csv","collection1")
+        classifier("collection1","collection2","classifier.yaml")
+        classifier_habitat("collection2","collection3","habitat_configuration.yaml")
+        clean_categories("collection3")
+        clean_habitat("collection3")
+
+        
         
         
     # Normal mode

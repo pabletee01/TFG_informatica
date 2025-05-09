@@ -33,26 +33,38 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
 
     # Calculation of the number of categories that consume other living beings associated to the living being to obtain the probability that is going to be needed
     # to determine if a predatory relation is established or not.
-    
-    
 
     logger.debug(matrix)
     logger.debug(prey)
     logger.debug(classes)
 
     habitat_l = []
+    
+    
+    
     # recopiling all predatory interactions of the given living being.
     for lb in habitat:
-        # Relation set to not predatory by default
+        habitat_flag = False
+        
+        # Checking if both living beings share habitat
+        for niche in l_being['habitat']:
+            if niche in lb['habitat']:
+                habitat_flag = True
+                logger.debug(str(l_being['name'])+"----->"+str(lb['name']))
+                logger.debug(str(l_being['habitat'])+"------"+str(lb['habitat']))
+        
         habitat_l.append(dict(lb))
+        
+        # Relation set to not predatory by default
         rel = [0,'']
-        for cat in lb['class']:
-            # Calculating the value of predation type based on categories and priorities
-            if cat in prey.keys():
-                logger.debug(lb['name'] + ' predation type: ' + str(prey[cat][0]))
-                if rel[0] != priorities[rel[0]][prey[cat][0]]:
-                    rel[1] = prey[cat][1]
-                rel[0] = priorities[rel[0]][prey[cat][0]]
+        if habitat_flag:
+            for cat in lb['class']:
+                # Calculating the value of predation type based on categories and priorities
+                if cat in prey.keys():
+                    logger.debug(lb['name'] + ' predation type: ' + str(prey[cat][0]))
+                    if rel[0] != priorities[rel[0]][prey[cat][0]]:
+                        rel[1] = prey[cat][1]
+                    rel[0] = priorities[rel[0]][prey[cat][0]]
         
         logger.debug(rel)
         # 1 in rel means predation is determined by the connectivity factor:

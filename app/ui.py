@@ -290,7 +290,7 @@ def on_continue_load_habitat(combo1, combo2, selected_values, main_frame):
     selected_values[0] = val1
     selected_values[1] = val2
     messagebox.showinfo("Files Selected", f"Habitat: {val1}\nConfig: {val2}")
-    load_habitat_method(selected_values, 0.15)
+    load_habitat_method(selected_values, C_value)
     load_habitat(main_frame)
 
 def main_menu():

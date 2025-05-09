@@ -49,7 +49,7 @@ def test_formatter_wrong_csv_filename(mongo_db, capfd):
     strerr = str(capfd.readouterr().err)
     expected = "Non_existent_file.csv not found in data/habitats directory\n"
     # 159 lines in Zona-0_Las_Hoyas-C1.csv
-    assert strerr == expected and result == False
+    assert expected in strerr and result == False
 
 # Wrong format in the first line of CSV
 def test_formatter_wrong_csv_format_in_header(mongo_db, capfd):

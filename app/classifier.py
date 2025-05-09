@@ -1,7 +1,7 @@
 import yaml as ym
 import os
 import sys
-from mongodb.read_collection import read_habitat
+from mongodb.read_collection import read_habitat, read_habitat_curated
 from mongodb.create_collection import insert_habitat_curated
 from cerberus import Validator
 from app.logger import logger
@@ -81,10 +81,34 @@ def engine_loader(classifier: str):
         logger.error("Validation errors:")
         for error in errors:
             for field, errors in error:
-                logger.error(f"- In {field}:", file=sys.stderr)
+                logger.error(f"- In {field}:")
                 for error in errors:
-                    logger.error(f"   {error}", file=sys.stderr)
+                    logger.error(f"   {error}")
             return None
+        
+# Validates a YAML file containing microhabitat classifications.
+def engine_loader_habitat(filepath: str) -> bool:
+    filea = os.getcwd() + "/config_habitat/" + filepath
+    # Opening and loading configuration file
+    with open(filea, "r", encoding="utf-8") as f:
+        data = ym.safe_load(f)
+
+    # Checking configuration structure
+    if not isinstance(data, dict):
+        raise ValueError("YAML root must be a dictionary.")
+
+    expected_keys = {"terrestrial", "aquatic"}
+    if set(data.keys()) != expected_keys:
+        raise ValueError(f"YAML must contain exactly these keys: {expected_keys}")
+
+    for key in expected_keys:
+        if not isinstance(data[key], list):
+            raise ValueError(f"The value of '{key}' must be a list.")
+        for item in data[key]:
+            if not isinstance(item, str):
+                raise ValueError(f"All items in '{key}' must be strings.")
+
+    return data
 
     
 
@@ -95,7 +119,7 @@ def classifier(c_name: str, cout_name: str, config_file: str):
     try:
         engine_config = engine_loader(config_file)
     except FileNotFoundError as e:
-        logger.errors(f"Error: configuration file not found {e}")
+        logger.error(f"Error: configuration file not found {e}")
         return False
 
 
@@ -158,6 +182,49 @@ def classifier(c_name: str, cout_name: str, config_file: str):
 
         animal_list_curated.append(animal)
 
-        # Inserting the habitat in the categorized database
-        insert_habitat_curated(animal_list_curated, cout_name)
+    # Inserting the habitat in the categorized database
+    insert_habitat_curated(animal_list_curated, cout_name)
+    return True
+
+
+def classifier_habitat(c_name: str, c_out: str, habitat_config):
+    all_documents = read_habitat_curated(c_name)
+    
+    animal_list_curated = []
+    
+    try:
+        engine_config = engine_loader_habitat(habitat_config)
+    except FileNotFoundError as e:
+        logger.error(f"Error: configuration file not found {e}")
+        return False
+    
+    if engine_config == None:
+        return False
+    
+    n = 0
+    
+    for animal in all_documents:
+        
+        logger.debug(f"{n}: {animal}")
+    
+        animal['habitat'] = []
+        
+        # obtaining species' niche
+        niche = animal['niche'].split('|')
+
+        # Obtaining animals' habitat from configuration file
+        for n in niche:
+            if n in engine_config['terrestrial']:
+                animal['habitat'].append('terrestial')
+            if n in engine_config['aquatic']:
+                animal['habitat'].append('aquatic')
+         
+        # deleting dulicates       
+        animal['habitat'] = list(set(animal['habitat']))
+                
+        logger.debug(animal)
+
+        animal_list_curated.append(animal)
+        
+    insert_habitat_curated(animal_list_curated, c_out)
     return True
