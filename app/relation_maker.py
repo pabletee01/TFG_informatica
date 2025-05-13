@@ -89,7 +89,7 @@ def calculate_relations(l_being: dict, matrix: dict, relations: list, habitat, c
         for fr_cat in frequencies.keys():
             frequencies[fr_cat] = frequencies[fr_cat] / total_frequencies
 
-    logger.debug(frequencies, total_frequencies)
+    logger.debug(f"{frequencies}, {total_frequencies}")
 
     # Calculating the final interactions between each living being
     counter = 0

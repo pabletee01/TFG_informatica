@@ -3661,3 +3661,1999 @@
 2025-05-09 12:09:58,978 - ANN application - INFO - Counter()
 2025-05-09 12:09:58,989 - ANN application - INFO - Counter()
 2025-05-09 12:09:58,990 - ANN application - INFO - Similars None
+2025-05-09 13:33:21,678 - ANN application - INFO - Completing categories
+2025-05-09 13:34:30,703 - ANN application - INFO - Completing categories
+2025-05-09 13:34:30,732 - ANN application - INFO - Animal Julus_sp.
+2025-05-09 13:34:30,736 - ANN application - INFO - Similars CATEGORY_3
+2025-05-09 13:34:30,742 - ANN application - INFO - Updated Julus_sp. with CATEGORY_3 category.
+2025-05-09 13:34:30,742 - ANN application - INFO - Animal Lonchidion_sp.
+2025-05-09 13:34:30,758 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,758 - ANN application - INFO - Completing habitats
+2025-05-09 13:34:30,772 - ANN application - INFO - Animal Girvanella_sp.
+2025-05-09 13:34:30,775 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,779 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,783 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,784 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,784 - ANN application - INFO - Animal Botryococcus_sp.
+2025-05-09 13:34:30,789 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,794 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,799 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,799 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,799 - ANN application - INFO - Animal Pediastrum_sp.
+2025-05-09 13:34:30,804 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,809 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,814 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,814 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,814 - ANN application - INFO - Animal Clavatoraxis_diaz-romaerali
+2025-05-09 13:34:30,819 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,823 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,828 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,828 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,828 - ANN application - INFO - Animal Clavatoraxis_robustus
+2025-05-09 13:34:30,834 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,839 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,843 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,844 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,844 - ANN application - INFO - Animal Charaxis_spicatus
+2025-05-09 13:34:30,848 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,854 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,857 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,857 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,857 - ANN application - INFO - Animal Palaeonitella_vermicularis
+2025-05-09 13:34:30,862 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,867 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,871 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,872 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,872 - ANN application - INFO - Animal Nitella_sp.
+2025-05-09 13:34:30,875 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,879 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,884 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,884 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,884 - ANN application - INFO - Animal Atopochara_trivolvis
+2025-05-09 13:34:30,888 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,893 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,896 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,896 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,896 - ANN application - INFO - Animal Globator_maillardii
+2025-05-09 13:34:30,901 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,905 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,910 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,910 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,911 - ANN application - INFO - Animal Clavator_harrisii
+2025-05-09 13:34:30,916 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,920 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,924 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,924 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,924 - ANN application - INFO - Animal Ascidiella_cruciata
+2025-05-09 13:34:30,928 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,933 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,938 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,938 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,939 - ANN application - INFO - Animal Mesochara_harrisii
+2025-05-09 13:34:30,942 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,945 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,951 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,951 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,951 - ANN application - INFO - Animal Paxillitriletes_sp.
+2025-05-09 13:34:30,955 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,983 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,987 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,987 - ANN application - INFO - Similars None
+2025-05-09 13:34:30,987 - ANN application - INFO - Animal Weichselia_reticulata
+2025-05-09 13:34:30,990 - ANN application - INFO - Counter()
+2025-05-09 13:34:30,995 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,001 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,002 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,002 - ANN application - INFO - Animal Ruffordia_goepperti
+2025-05-09 13:34:31,006 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,011 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,016 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,017 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,017 - ANN application - INFO - Animal Onychiopsis_psilotoides
+2025-05-09 13:34:31,022 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,026 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,030 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,031 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,032 - ANN application - INFO - Animal Cladophlebis_sp.
+2025-05-09 13:34:31,036 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,040 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,044 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,044 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,044 - ANN application - INFO - Animal Sphenopteris_sp.
+2025-05-09 13:34:31,048 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,052 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,057 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,057 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,057 - ANN application - INFO - Animal Coniopteris_sp.
+2025-05-09 13:34:31,061 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,066 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,070 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,070 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,070 - ANN application - INFO - Animal Dicksonia_sp.
+2025-05-09 13:34:31,073 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,078 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,083 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,084 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,084 - ANN application - INFO - Animal Frenelopsis_ugnaensis
+2025-05-09 13:34:31,088 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,092 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,095 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,096 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,096 - ANN application - INFO - Animal Brachyphyllum_sp.
+2025-05-09 13:34:31,101 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,105 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,109 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,109 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,109 - ANN application - INFO - Animal Pagiophyllum_pedreranum
+2025-05-09 13:34:31,112 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,117 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,121 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,121 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,121 - ANN application - INFO - Animal Glenrosa_falcata
+2025-05-09 13:34:31,124 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,128 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,133 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,134 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,134 - ANN application - INFO - Animal Sphenolepis_kurriana
+2025-05-09 13:34:31,140 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,145 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,151 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,151 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,151 - ANN application - INFO - Animal Cupressinocladus_sp.
+2025-05-09 13:34:31,155 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,159 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,164 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,164 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,165 - ANN application - INFO - Animal Watsoniocladus_sp.
+2025-05-09 13:34:31,170 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,176 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,182 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,182 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,182 - ANN application - INFO - Animal Lindleycladus_sp.
+2025-05-09 13:34:31,190 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,196 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,203 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,203 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,203 - ANN application - INFO - Animal Podozamites_sp.
+2025-05-09 13:34:31,210 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,216 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,222 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,223 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,223 - ANN application - INFO - Animal Podocarpites_sp.
+2025-05-09 13:34:31,229 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,234 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,242 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,242 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,242 - ANN application - INFO - Animal Zamites_sp.
+2025-05-09 13:34:31,247 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,254 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,259 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,260 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,260 - ANN application - INFO - Animal Drewria_potomacensis
+2025-05-09 13:34:31,266 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,273 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,280 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,281 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,281 - ANN application - INFO - Animal Montsechai_vidalii
+2025-05-09 13:34:31,287 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,292 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,298 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,298 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,298 - ANN application - INFO - Animal Ranunculus_ferreri
+2025-05-09 13:34:31,304 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,308 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,314 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,314 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,314 - ANN application - INFO - Animal Proteaephyllum_reniforme
+2025-05-09 13:34:31,318 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,323 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,326 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,326 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,326 - ANN application - INFO - Animal Ficophyllum_sp.
+2025-05-09 13:34:31,330 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,334 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,337 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,338 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,338 - ANN application - INFO - Animal Iterophyllum_lobatum
+2025-05-09 13:34:31,342 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,347 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,352 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,352 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,352 - ANN application - INFO - Animal Viriphyllum_sp.
+2025-05-09 13:34:31,356 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,359 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,363 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,363 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,364 - ANN application - INFO - Animal Austrapotamobius_llopisi
+2025-05-09 13:34:31,369 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,373 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,377 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,377 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,377 - ANN application - INFO - Animal Delclosia_martinelli
+2025-05-09 13:34:31,382 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,390 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,394 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,395 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,395 - ANN application - INFO - Animal Cypridea_sp.
+2025-05-09 13:34:31,400 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,404 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,408 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,408 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,408 - ANN application - INFO - Animal Mantelliana_sp.
+2025-05-09 13:34:31,412 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,417 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,422 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,422 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,422 - ANN application - INFO - Animal Damonella_sp.
+2025-05-09 13:34:31,426 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,431 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,436 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,436 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,436 - ANN application - INFO - Animal Theriosynoecum_sp.
+2025-05-09 13:34:31,440 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,446 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,450 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,450 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,450 - ANN application - INFO - Animal Scabriculocypris_sp.
+2025-05-09 13:34:31,454 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,459 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,463 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,464 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,464 - ANN application - INFO - Animal Alicenula_sp.
+2025-05-09 13:34:31,468 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,474 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,478 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,478 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,479 - ANN application - INFO - Animal Spinogriphus_ibericus_
+2025-05-09 13:34:31,484 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,488 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,493 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,493 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,493 - ANN application - INFO - Animal Unio_elongatus
+2025-05-09 13:34:31,497 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,502 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,505 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,505 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,505 - ANN application - INFO - Animal Unio_turgidulus
+2025-05-09 13:34:31,509 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,514 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,519 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,519 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,519 - ANN application - INFO - Animal Unio_semirectus
+2025-05-09 13:34:31,523 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,527 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,532 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,532 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,532 - ANN application - INFO - Animal Viviparus_inflatus
+2025-05-09 13:34:31,537 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,541 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,546 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,546 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,546 - ANN application - INFO - Animal Juramarinula_sp.
+2025-05-09 13:34:31,550 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,554 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,558 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,558 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,558 - ANN application - INFO - Animal Prophysa_bristovii
+2025-05-09 13:34:31,562 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,567 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,571 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,572 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,572 - ANN application - INFO - Animal Gyraulus_loryi
+2025-05-09 13:34:31,576 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,580 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,584 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,585 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,585 - ANN application - INFO - Animal Gyraulus_choffati
+2025-05-09 13:34:31,589 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,594 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,598 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,599 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,599 - ANN application - INFO - Animal Macryphantes_cowdeni
+2025-05-09 13:34:31,603 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,607 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,610 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,610 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,610 - ANN application - INFO - Animal Huerguina_diazromerali
+2025-05-09 13:34:31,614 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,619 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,623 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,624 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,624 - ANN application - INFO - Animal Chimerochrysopa_incerta
+2025-05-09 13:34:31,627 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,632 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,632 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,632 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,632 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,632 - ANN application - INFO - Counter({'terrestial': 4})
+2025-05-09 13:34:31,633 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:31,638 - ANN application - INFO - Updated Chimerochrysopa_incerta with terrestial habitat.
+2025-05-09 13:34:31,638 - ANN application - INFO - Animal Triangulochrysopa_sanzii
+2025-05-09 13:34:31,643 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,643 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,643 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:31,644 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:31,649 - ANN application - INFO - Updated Triangulochrysopa_sanzii with terrestial habitat.
+2025-05-09 13:34:31,649 - ANN application - INFO - Animal Nanochrysopa_sp.
+2025-05-09 13:34:31,653 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,657 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,657 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,658 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,658 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,658 - ANN application - INFO - Counter({'terrestial': 4})
+2025-05-09 13:34:31,658 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:31,661 - ANN application - INFO - Updated Nanochrysopa_sp. with terrestial habitat.
+2025-05-09 13:34:31,661 - ANN application - INFO - Animal Trachypachus_sp.
+2025-05-09 13:34:31,666 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['aquatic']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['aquatic']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['aquatic']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['aquatic']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['aquatic']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['aquatic']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['aquatic']
+2025-05-09 13:34:31,671 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial', 'aquatic']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,672 - ANN application - INFO - Counter({'terrestial': 19, 'aquatic': 8})
+2025-05-09 13:34:31,672 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:31,676 - ANN application - INFO - Updated Trachypachus_sp. with terrestial habitat.
+2025-05-09 13:34:31,676 - ANN application - INFO - Animal Lonchidion_sp.
+2025-05-09 13:34:31,681 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,686 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,691 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,691 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,691 - ANN application - INFO - Animal Amiopsis_woodwardii
+2025-05-09 13:34:31,694 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,702 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,706 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,707 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,707 - ANN application - INFO - Animal Vidalamia_catalunica
+2025-05-09 13:34:31,711 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,715 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,720 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,720 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,720 - ANN application - INFO - Animal Lepidhoyas_microrhis
+2025-05-09 13:34:31,724 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,729 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,733 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,734 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,734 - ANN application - INFO - Animal Hoyasotes_tanyrhis
+2025-05-09 13:34:31,739 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,743 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,750 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,751 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,751 - ANN application - INFO - Animal Notagogus_ferreri
+2025-05-09 13:34:31,756 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,762 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,768 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,768 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,768 - ANN application - INFO - Animal Propterus_sp.
+2025-05-09 13:34:31,773 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,778 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,784 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,784 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,784 - ANN application - INFO - Animal Stenamara_mia
+2025-05-09 13:34:31,789 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,795 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,800 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,801 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,801 - ANN application - INFO - Animal Turbomesodon_praeclarus
+2025-05-09 13:34:31,806 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,811 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,816 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,817 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,817 - ANN application - INFO - Animal Gordichthys_conquensis
+2025-05-09 13:34:31,823 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,827 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,831 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,832 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,832 - ANN application - INFO - Animal Rubiesichthys_gregalis
+2025-05-09 13:34:31,837 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,841 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,844 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,845 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,845 - ANN application - INFO - Animal Pleuropholis_sp.
+2025-05-09 13:34:31,849 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,854 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,858 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,859 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,859 - ANN application - INFO - Animal Holophagus_sp.
+2025-05-09 13:34:31,863 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,868 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,871 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,872 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,872 - ANN application - INFO - Animal Celtedens_ibericus
+2025-05-09 13:34:31,875 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,879 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,886 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,886 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,887 - ANN application - INFO - Animal Gracilibatrachus_avallei
+2025-05-09 13:34:31,891 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,895 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,901 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,902 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,902 - ANN application - INFO - Animal Iberobatrachus_angelae
+2025-05-09 13:34:31,906 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,910 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,915 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,915 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,916 - ANN application - INFO - Animal Eodiscoglossus_sp.
+2025-05-09 13:34:31,920 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,924 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,928 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,929 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,929 - ANN application - INFO - Animal Hylaeobatrachus_croyii
+2025-05-09 13:34:31,933 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,938 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,942 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,942 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,942 - ANN application - INFO - Animal Valdotriton_gracilis
+2025-05-09 13:34:31,945 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,950 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,955 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,956 - ANN application - INFO - Similars None
+2025-05-09 13:34:31,956 - ANN application - INFO - Animal Hoyasemis_jimenezi
+2025-05-09 13:34:31,960 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,964 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,970 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,970 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,970 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:31,971 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:31,975 - ANN application - INFO - Updated Hoyasemis_jimenezi with terrestial habitat.
+2025-05-09 13:34:31,976 - ANN application - INFO - Animal Paramacellodus_sp.
+2025-05-09 13:34:31,980 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,986 - ANN application - INFO - Counter()
+2025-05-09 13:34:31,990 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,990 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:31,990 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:31,991 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:31,994 - ANN application - INFO - Updated Paramacellodus_sp. with terrestial habitat.
+2025-05-09 13:34:31,995 - ANN application - INFO - Animal Hoyalacerta_sanzi
+2025-05-09 13:34:31,999 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,005 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,011 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,011 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,011 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,011 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,018 - ANN application - INFO - Updated Hoyalacerta_sanzi with terrestial habitat.
+2025-05-09 13:34:32,018 - ANN application - INFO - Animal Scandensia_ciervensis
+2025-05-09 13:34:32,023 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,028 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,035 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,035 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,035 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,035 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,039 - ANN application - INFO - Updated Scandensia_ciervensis with terrestial habitat.
+2025-05-09 13:34:32,039 - ANN application - INFO - Animal Meyasaurus_diazromerali
+2025-05-09 13:34:32,044 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,048 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,053 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,053 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,053 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,054 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,057 - ANN application - INFO - Updated Meyasaurus_diazromerali with terrestial habitat.
+2025-05-09 13:34:32,057 - ANN application - INFO - Animal Jucaraseps_grandipes
+2025-05-09 13:34:32,062 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,071 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,075 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,075 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,075 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,076 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,080 - ANN application - INFO - Updated Jucaraseps_grandipes with terrestial habitat.
+2025-05-09 13:34:32,080 - ANN application - INFO - Animal Montsecosuchus_depereti
+2025-05-09 13:34:32,086 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,090 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,094 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,095 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,095 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,095 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,104 - ANN application - INFO - Updated Montsecosuchus_depereti with terrestial habitat.
+2025-05-09 13:34:32,104 - ANN application - INFO - Animal Goniopholis_crassidens
+2025-05-09 13:34:32,108 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,112 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,118 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,118 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,118 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,119 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,123 - ANN application - INFO - Updated Goniopholis_crassidens with terrestial habitat.
+2025-05-09 13:34:32,124 - ANN application - INFO - Animal Unasuchus_sp.
+2025-05-09 13:34:32,128 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,136 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,140 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,140 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,141 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,141 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,147 - ANN application - INFO - Updated Unasuchus_sp. with terrestial habitat.
+2025-05-09 13:34:32,148 - ANN application - INFO - Animal Ornithocheiroidea_indet.
+2025-05-09 13:34:32,152 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,155 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,159 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,159 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,159 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,160 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,163 - ANN application - INFO - Updated Ornithocheiroidea_indet. with terrestial habitat.
+2025-05-09 13:34:32,164 - ANN application - INFO - Animal Azhdarchoidea_indet.
+2025-05-09 13:34:32,168 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,172 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,176 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,176 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,176 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,176 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,180 - ANN application - INFO - Updated Azhdarchoidea_indet. with terrestial habitat.
+2025-05-09 13:34:32,180 - ANN application - INFO - Animal Europejara_olcadesorum
+2025-05-09 13:34:32,186 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,190 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,193 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,194 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,194 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:34:32,194 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,199 - ANN application - INFO - Updated Europejara_olcadesorum with terrestial habitat.
+2025-05-09 13:34:32,200 - ANN application - INFO - Animal Pelecanimimus_polyodon
+2025-05-09 13:34:32,204 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,209 - ANN application - INFO - ['terrestial']
+2025-05-09 13:34:32,209 - ANN application - INFO - Counter({'terrestial': 1})
+2025-05-09 13:34:32,209 - ANN application - INFO - Similars terrestial
+2025-05-09 13:34:32,213 - ANN application - INFO - Updated Pelecanimimus_polyodon with terrestial habitat.
+2025-05-09 13:34:32,213 - ANN application - INFO - Animal Concornis_lacustris
+2025-05-09 13:34:32,218 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,221 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,225 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,225 - ANN application - INFO - Similars None
+2025-05-09 13:34:32,225 - ANN application - INFO - Animal Eoalulavis_hoyasi
+2025-05-09 13:34:32,229 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,236 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,240 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,240 - ANN application - INFO - Similars None
+2025-05-09 13:34:32,240 - ANN application - INFO - Animal Iberomesornis_romerali
+2025-05-09 13:34:32,247 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,251 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,254 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,254 - ANN application - INFO - Similars None
+2025-05-09 13:34:32,254 - ANN application - INFO - Animal Spinolestes_xenarthrosus
+2025-05-09 13:34:32,258 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,261 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,267 - ANN application - INFO - Counter()
+2025-05-09 13:34:32,267 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,515 - ANN application - INFO - Completing habitats
+2025-05-09 13:37:16,525 - ANN application - INFO - Animal Girvanella_sp.
+2025-05-09 13:37:16,529 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,536 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,540 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,540 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,540 - ANN application - INFO - Animal Botryococcus_sp.
+2025-05-09 13:37:16,544 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,548 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,553 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,554 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,554 - ANN application - INFO - Animal Pediastrum_sp.
+2025-05-09 13:37:16,558 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,562 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,569 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,570 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,570 - ANN application - INFO - Animal Clavatoraxis_diaz-romaerali
+2025-05-09 13:37:16,573 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,578 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,583 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,583 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,583 - ANN application - INFO - Animal Clavatoraxis_robustus
+2025-05-09 13:37:16,587 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,592 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,596 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,596 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,596 - ANN application - INFO - Animal Charaxis_spicatus
+2025-05-09 13:37:16,601 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,605 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,609 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,610 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,610 - ANN application - INFO - Animal Palaeonitella_vermicularis
+2025-05-09 13:37:16,615 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,619 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,622 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,622 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,623 - ANN application - INFO - Animal Nitella_sp.
+2025-05-09 13:37:16,626 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,631 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,635 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,636 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,636 - ANN application - INFO - Animal Atopochara_trivolvis
+2025-05-09 13:37:16,639 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,642 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,647 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,648 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,648 - ANN application - INFO - Animal Globator_maillardii
+2025-05-09 13:37:16,651 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,656 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,659 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,659 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,659 - ANN application - INFO - Animal Clavator_harrisii
+2025-05-09 13:37:16,664 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,669 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,673 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,674 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,674 - ANN application - INFO - Animal Ascidiella_cruciata
+2025-05-09 13:37:16,677 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,682 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,686 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,686 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,686 - ANN application - INFO - Animal Mesochara_harrisii
+2025-05-09 13:37:16,689 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,693 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,698 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,699 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,699 - ANN application - INFO - Animal Paxillitriletes_sp.
+2025-05-09 13:37:16,702 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,707 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,710 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,711 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,711 - ANN application - INFO - Animal Weichselia_reticulata
+2025-05-09 13:37:16,740 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,744 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,748 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,748 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,749 - ANN application - INFO - Animal Ruffordia_goepperti
+2025-05-09 13:37:16,752 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,756 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,760 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,761 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,761 - ANN application - INFO - Animal Onychiopsis_psilotoides
+2025-05-09 13:37:16,767 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,771 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,774 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,775 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,775 - ANN application - INFO - Animal Cladophlebis_sp.
+2025-05-09 13:37:16,779 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,783 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,787 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,787 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,787 - ANN application - INFO - Animal Sphenopteris_sp.
+2025-05-09 13:37:16,790 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,794 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,798 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,798 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,798 - ANN application - INFO - Animal Coniopteris_sp.
+2025-05-09 13:37:16,802 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,806 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,810 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,810 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,810 - ANN application - INFO - Animal Dicksonia_sp.
+2025-05-09 13:37:16,815 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,819 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,822 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,823 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,823 - ANN application - INFO - Animal Frenelopsis_ugnaensis
+2025-05-09 13:37:16,826 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,831 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,835 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,835 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,835 - ANN application - INFO - Animal Brachyphyllum_sp.
+2025-05-09 13:37:16,839 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,843 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,848 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,848 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,849 - ANN application - INFO - Animal Pagiophyllum_pedreranum
+2025-05-09 13:37:16,852 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,855 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,859 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,859 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,859 - ANN application - INFO - Animal Glenrosa_falcata
+2025-05-09 13:37:16,864 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,868 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,872 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,872 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,873 - ANN application - INFO - Animal Sphenolepis_kurriana
+2025-05-09 13:37:16,876 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,881 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,885 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,885 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,885 - ANN application - INFO - Animal Cupressinocladus_sp.
+2025-05-09 13:37:16,888 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,892 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,898 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,898 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,898 - ANN application - INFO - Animal Watsoniocladus_sp.
+2025-05-09 13:37:16,902 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,906 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,910 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,910 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,910 - ANN application - INFO - Animal Lindleycladus_sp.
+2025-05-09 13:37:16,915 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,921 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,925 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,925 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,925 - ANN application - INFO - Animal Podozamites_sp.
+2025-05-09 13:37:16,930 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,936 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,941 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,941 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,941 - ANN application - INFO - Animal Podocarpites_sp.
+2025-05-09 13:37:16,944 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,949 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,955 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,956 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,956 - ANN application - INFO - Animal Zamites_sp.
+2025-05-09 13:37:16,959 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,965 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,969 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,969 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,969 - ANN application - INFO - Animal Drewria_potomacensis
+2025-05-09 13:37:16,973 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,977 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,982 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,982 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,983 - ANN application - INFO - Animal Montsechai_vidalii
+2025-05-09 13:37:16,986 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,989 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,993 - ANN application - INFO - Counter()
+2025-05-09 13:37:16,994 - ANN application - INFO - Similars None
+2025-05-09 13:37:16,994 - ANN application - INFO - Animal Ranunculus_ferreri
+2025-05-09 13:37:17,000 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,004 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,009 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,009 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,010 - ANN application - INFO - Animal Proteaephyllum_reniforme
+2025-05-09 13:37:17,014 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,019 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,023 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,023 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,023 - ANN application - INFO - Animal Ficophyllum_sp.
+2025-05-09 13:37:17,026 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,031 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,035 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,036 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,036 - ANN application - INFO - Animal Iterophyllum_lobatum
+2025-05-09 13:37:17,040 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,044 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,049 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,049 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,050 - ANN application - INFO - Animal Viriphyllum_sp.
+2025-05-09 13:37:17,054 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,057 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,062 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,064 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,064 - ANN application - INFO - Animal Austrapotamobius_llopisi
+2025-05-09 13:37:17,069 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,073 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,077 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,078 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,079 - ANN application - INFO - Animal Delclosia_martinelli
+2025-05-09 13:37:17,083 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,087 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,091 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,092 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,092 - ANN application - INFO - Animal Cypridea_sp.
+2025-05-09 13:37:17,097 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,102 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,105 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,105 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,105 - ANN application - INFO - Animal Mantelliana_sp.
+2025-05-09 13:37:17,110 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,115 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,120 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,120 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,120 - ANN application - INFO - Animal Damonella_sp.
+2025-05-09 13:37:17,124 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,127 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,132 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,132 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,132 - ANN application - INFO - Animal Theriosynoecum_sp.
+2025-05-09 13:37:17,136 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,141 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,145 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,145 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,145 - ANN application - INFO - Animal Scabriculocypris_sp.
+2025-05-09 13:37:17,150 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,153 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,157 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,157 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,157 - ANN application - INFO - Animal Alicenula_sp.
+2025-05-09 13:37:17,162 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,167 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,170 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,171 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,171 - ANN application - INFO - Animal Spinogriphus_ibericus_
+2025-05-09 13:37:17,175 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,180 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,184 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,184 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,184 - ANN application - INFO - Animal Unio_elongatus
+2025-05-09 13:37:17,188 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,192 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,197 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,197 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,197 - ANN application - INFO - Animal Unio_turgidulus
+2025-05-09 13:37:17,201 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,205 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,209 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,209 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,209 - ANN application - INFO - Animal Unio_semirectus
+2025-05-09 13:37:17,213 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,218 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,221 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,222 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,222 - ANN application - INFO - Animal Viviparus_inflatus
+2025-05-09 13:37:17,228 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,233 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,237 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,238 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,238 - ANN application - INFO - Animal Juramarinula_sp.
+2025-05-09 13:37:17,242 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,246 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,251 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,251 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,252 - ANN application - INFO - Animal Prophysa_bristovii
+2025-05-09 13:37:17,256 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,260 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,265 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,266 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,266 - ANN application - INFO - Animal Gyraulus_loryi
+2025-05-09 13:37:17,269 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,273 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,277 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,277 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,277 - ANN application - INFO - Animal Gyraulus_choffati
+2025-05-09 13:37:17,282 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,286 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,290 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,290 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,290 - ANN application - INFO - Animal Macryphantes_cowdeni
+2025-05-09 13:37:17,295 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,302 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,306 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,306 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,306 - ANN application - INFO - Animal Huerguina_diazromerali
+2025-05-09 13:37:17,314 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,320 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,324 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,325 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,325 - ANN application - INFO - Animal Chimerochrysopa_incerta
+2025-05-09 13:37:17,330 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,335 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,335 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,336 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,336 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,336 - ANN application - INFO - Counter({'terrestial': 4})
+2025-05-09 13:37:17,336 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,341 - ANN application - INFO - Updated Chimerochrysopa_incerta with terrestial habitat.
+2025-05-09 13:37:17,341 - ANN application - INFO - Animal Triangulochrysopa_sanzii
+2025-05-09 13:37:17,346 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,346 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,346 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,347 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,352 - ANN application - INFO - Updated Triangulochrysopa_sanzii with terrestial habitat.
+2025-05-09 13:37:17,353 - ANN application - INFO - Animal Nanochrysopa_sp.
+2025-05-09 13:37:17,357 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,365 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,365 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,365 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,365 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,365 - ANN application - INFO - Counter({'terrestial': 4})
+2025-05-09 13:37:17,365 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,369 - ANN application - INFO - Updated Nanochrysopa_sp. with terrestial habitat.
+2025-05-09 13:37:17,369 - ANN application - INFO - Animal Trachypachus_sp.
+2025-05-09 13:37:17,373 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,377 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,377 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,377 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['aquatic']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['aquatic']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['aquatic']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['aquatic']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['aquatic']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['aquatic']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['aquatic']
+2025-05-09 13:37:17,378 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial', 'aquatic']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,379 - ANN application - INFO - Counter({'terrestial': 19, 'aquatic': 8})
+2025-05-09 13:37:17,379 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,384 - ANN application - INFO - Updated Trachypachus_sp. with terrestial habitat.
+2025-05-09 13:37:17,385 - ANN application - INFO - Animal Lonchidion_sp.
+2025-05-09 13:37:17,388 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,391 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,396 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,396 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,396 - ANN application - INFO - Animal Amiopsis_woodwardii
+2025-05-09 13:37:17,401 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,405 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,409 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,409 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,409 - ANN application - INFO - Animal Vidalamia_catalunica
+2025-05-09 13:37:17,414 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,418 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,422 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,422 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,422 - ANN application - INFO - Animal Lepidhoyas_microrhis
+2025-05-09 13:37:17,426 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,431 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,435 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,436 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,436 - ANN application - INFO - Animal Hoyasotes_tanyrhis
+2025-05-09 13:37:17,439 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,443 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,449 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,449 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,449 - ANN application - INFO - Animal Notagogus_ferreri
+2025-05-09 13:37:17,453 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,456 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,460 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,461 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,461 - ANN application - INFO - Animal Propterus_sp.
+2025-05-09 13:37:17,467 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,474 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,480 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,480 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,480 - ANN application - INFO - Animal Stenamara_mia
+2025-05-09 13:37:17,485 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,489 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,493 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,493 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,493 - ANN application - INFO - Animal Turbomesodon_praeclarus
+2025-05-09 13:37:17,498 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,501 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,505 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,505 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,505 - ANN application - INFO - Animal Gordichthys_conquensis
+2025-05-09 13:37:17,509 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,514 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,518 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,518 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,518 - ANN application - INFO - Animal Rubiesichthys_gregalis
+2025-05-09 13:37:17,522 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,526 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,532 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,532 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,532 - ANN application - INFO - Animal Pleuropholis_sp.
+2025-05-09 13:37:17,535 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,539 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,544 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,544 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,544 - ANN application - INFO - Animal Holophagus_sp.
+2025-05-09 13:37:17,551 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,555 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,559 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,560 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,560 - ANN application - INFO - Animal Celtedens_ibericus
+2025-05-09 13:37:17,565 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,568 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,572 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,572 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,572 - ANN application - INFO - Animal Gracilibatrachus_avallei
+2025-05-09 13:37:17,577 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,582 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,587 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,587 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,587 - ANN application - INFO - Animal Iberobatrachus_angelae
+2025-05-09 13:37:17,591 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,594 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,599 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,599 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,599 - ANN application - INFO - Animal Eodiscoglossus_sp.
+2025-05-09 13:37:17,604 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,608 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,612 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,613 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,613 - ANN application - INFO - Animal Hylaeobatrachus_croyii
+2025-05-09 13:37:17,618 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,622 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,626 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,626 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,626 - ANN application - INFO - Animal Valdotriton_gracilis
+2025-05-09 13:37:17,632 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,637 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,641 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,641 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,641 - ANN application - INFO - Animal Hoyasemis_jimenezi
+2025-05-09 13:37:17,647 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,652 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,657 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,657 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,657 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,658 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,661 - ANN application - INFO - Updated Hoyasemis_jimenezi with terrestial habitat.
+2025-05-09 13:37:17,661 - ANN application - INFO - Animal Paramacellodus_sp.
+2025-05-09 13:37:17,666 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,669 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,673 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,673 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,673 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,673 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,678 - ANN application - INFO - Updated Paramacellodus_sp. with terrestial habitat.
+2025-05-09 13:37:17,678 - ANN application - INFO - Animal Hoyalacerta_sanzi
+2025-05-09 13:37:17,683 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,687 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,691 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,691 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,691 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,691 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,695 - ANN application - INFO - Updated Hoyalacerta_sanzi with terrestial habitat.
+2025-05-09 13:37:17,696 - ANN application - INFO - Animal Scandensia_ciervensis
+2025-05-09 13:37:17,700 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,706 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,709 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,709 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,709 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,710 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,715 - ANN application - INFO - Updated Scandensia_ciervensis with terrestial habitat.
+2025-05-09 13:37:17,715 - ANN application - INFO - Animal Meyasaurus_diazromerali
+2025-05-09 13:37:17,718 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,722 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,726 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,726 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,726 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,726 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,731 - ANN application - INFO - Updated Meyasaurus_diazromerali with terrestial habitat.
+2025-05-09 13:37:17,731 - ANN application - INFO - Animal Jucaraseps_grandipes
+2025-05-09 13:37:17,735 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,739 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,743 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,743 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,744 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,744 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,749 - ANN application - INFO - Updated Jucaraseps_grandipes with terrestial habitat.
+2025-05-09 13:37:17,749 - ANN application - INFO - Animal Montsecosuchus_depereti
+2025-05-09 13:37:17,753 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,757 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,760 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,761 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,761 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,761 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,768 - ANN application - INFO - Updated Montsecosuchus_depereti with terrestial habitat.
+2025-05-09 13:37:17,768 - ANN application - INFO - Animal Goniopholis_crassidens
+2025-05-09 13:37:17,774 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,781 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,788 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,789 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,790 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,791 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,797 - ANN application - INFO - Updated Goniopholis_crassidens with terrestial habitat.
+2025-05-09 13:37:17,798 - ANN application - INFO - Animal Unasuchus_sp.
+2025-05-09 13:37:17,803 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,809 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,816 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,816 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,817 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,817 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,823 - ANN application - INFO - Updated Unasuchus_sp. with terrestial habitat.
+2025-05-09 13:37:17,823 - ANN application - INFO - Animal Ornithocheiroidea_indet.
+2025-05-09 13:37:17,828 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,836 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,843 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,843 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,843 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,844 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,849 - ANN application - INFO - Updated Ornithocheiroidea_indet. with terrestial habitat.
+2025-05-09 13:37:17,849 - ANN application - INFO - Animal Azhdarchoidea_indet.
+2025-05-09 13:37:17,854 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,860 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,867 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,867 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,867 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,867 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,873 - ANN application - INFO - Updated Azhdarchoidea_indet. with terrestial habitat.
+2025-05-09 13:37:17,873 - ANN application - INFO - Animal Europejara_olcadesorum
+2025-05-09 13:37:17,879 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,885 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,890 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,890 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,890 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:37:17,890 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,896 - ANN application - INFO - Updated Europejara_olcadesorum with terrestial habitat.
+2025-05-09 13:37:17,896 - ANN application - INFO - Animal Pelecanimimus_polyodon
+2025-05-09 13:37:17,901 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,906 - ANN application - INFO - ['terrestial']
+2025-05-09 13:37:17,906 - ANN application - INFO - Counter({'terrestial': 1})
+2025-05-09 13:37:17,907 - ANN application - INFO - Similars terrestial
+2025-05-09 13:37:17,911 - ANN application - INFO - Updated Pelecanimimus_polyodon with terrestial habitat.
+2025-05-09 13:37:17,911 - ANN application - INFO - Animal Concornis_lacustris
+2025-05-09 13:37:17,915 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,919 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,922 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,922 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,922 - ANN application - INFO - Animal Eoalulavis_hoyasi
+2025-05-09 13:37:17,926 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,932 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,936 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,936 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,936 - ANN application - INFO - Animal Iberomesornis_romerali
+2025-05-09 13:37:17,940 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,943 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,948 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,949 - ANN application - INFO - Similars None
+2025-05-09 13:37:17,949 - ANN application - INFO - Animal Spinolestes_xenarthrosus
+2025-05-09 13:37:17,953 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,957 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,961 - ANN application - INFO - Counter()
+2025-05-09 13:37:17,961 - ANN application - INFO - Similars None
+2025-05-09 13:38:07,425 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,430 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,440 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,448 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,453 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,460 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,468 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,476 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,485 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,490 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,499 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,505 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,514 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,521 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,528 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,537 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,542 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,552 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,555 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,565 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,570 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,576 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,584 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,595 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,606 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,616 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,624 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,634 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,642 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,652 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,659 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,670 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,681 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,686 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,697 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,704 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,716 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,725 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,735 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,743 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,753 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,812 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,829 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,843 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,853 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,860 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,869 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,875 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,886 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,895 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,904 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,910 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,920 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,925 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,934 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,937 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,944 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,952 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,958 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,968 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,973 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,979 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,987 - ANN application - INFO - Counter()
+2025-05-09 13:38:07,993 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,003 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,010 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,018 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,023 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,031 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,036 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,044 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,051 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,056 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,064 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,072 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,080 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,088 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,097 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,105 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,114 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,125 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,137 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,145 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,153 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,163 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,170 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,175 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,183 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,187 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,192 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,198 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,205 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,213 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,222 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,233 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,238 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,242 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,250 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,255 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,260 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,266 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,271 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,275 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,282 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,288 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,293 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,301 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,308 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,316 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,322 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,329 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,337 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,343 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,352 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,358 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,367 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,373 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,379 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,387 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,396 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,403 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,409 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,421 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,427 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,434 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,448 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,453 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,458 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,465 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,471 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,476 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,485 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,490 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,497 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,501 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,507 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,514 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,521 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,527 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,534 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,540 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,548 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,553 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,560 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,568 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,575 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,584 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,591 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,599 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,604 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,611 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,616 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,623 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,629 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,635 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,642 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,650 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,657 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,665 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,670 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,676 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,685 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,693 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,700 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,705 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,710 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,718 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,722 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,726 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,733 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,738 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,744 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,754 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,762 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,767 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,772 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,773 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,773 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,773 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,774 - ANN application - INFO - Counter({'terrestial': 4})
+2025-05-09 13:38:08,790 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,790 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,790 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:08,800 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,804 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,804 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,804 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,804 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,804 - ANN application - INFO - Counter({'terrestial': 4})
+2025-05-09 13:38:08,814 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,819 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,819 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,819 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,819 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,819 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['aquatic']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['aquatic']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['aquatic']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['aquatic']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['aquatic']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['aquatic']
+2025-05-09 13:38:08,820 - ANN application - INFO - ['aquatic']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['aquatic', 'terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:08,821 - ANN application - INFO - Counter({'terrestial': 19, 'aquatic': 8})
+2025-05-09 13:38:08,833 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,839 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,847 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,854 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,862 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,869 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,878 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,885 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,893 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,904 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,913 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,922 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,931 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,937 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,944 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,954 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,962 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,968 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,977 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,985 - ANN application - INFO - Counter()
+2025-05-09 13:38:08,993 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,000 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,007 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,015 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,020 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,027 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,037 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,048 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,057 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,066 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,072 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,080 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,088 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,095 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,102 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,109 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,117 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,124 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,131 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,137 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,144 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,153 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,160 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,168 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,174 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,181 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,187 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,191 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,198 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,202 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,207 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,212 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,217 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,221 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,226 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,233 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,239 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,245 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,251 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,257 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,257 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,258 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,271 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,275 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,287 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,287 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,287 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,300 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,306 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,313 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,315 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,315 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,325 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,332 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,338 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,339 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,339 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,353 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,357 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,365 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,365 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,365 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,375 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,381 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,387 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,387 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,388 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,403 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,407 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,415 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,415 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,415 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,426 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,433 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,439 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,440 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,440 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,457 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,464 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,469 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,470 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,470 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,482 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,489 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,497 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,498 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,498 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,512 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,519 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,523 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,524 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,524 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,539 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,545 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,551 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,551 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,551 - ANN application - INFO - Counter({'terrestial': 2})
+2025-05-09 13:38:09,564 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,569 - ANN application - INFO - ['terrestial']
+2025-05-09 13:38:09,569 - ANN application - INFO - Counter({'terrestial': 1})
+2025-05-09 13:38:09,583 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,587 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,593 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,599 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,605 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,612 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,619 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,627 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,635 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,641 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,650 - ANN application - INFO - Counter()
+2025-05-09 13:38:09,655 - ANN application - INFO - Counter()
+2025-05-09 13:38:59,166 - ANN application - INFO - Completing categories
+2025-05-09 13:38:59,197 - ANN application - INFO - Completing habitats
+2025-05-09 13:42:24,765 - ANN application - INFO - Starting processing of the network with C=0.15
+2025-05-09 13:42:24,968 - ANN application - INFO - Completing categories
+2025-05-09 13:42:25,005 - ANN application - INFO - Completing habitats
+2025-05-09 13:42:27,629 - ANN application - INFO - CSV file created succesfully
+2025-05-09 13:42:27,643 - ANN application - INFO - Metrics file generated
+2025-05-09 13:42:29,593 - ANN application - INFO - PNG generated
+2025-05-09 13:42:29,593 - ANN application - INFO - Processing finished
+2025-05-12 08:13:53,110 - ANN application - INFO - Starting ANM application...
+2025-05-12 08:26:52,019 - ANN application - INFO - Starting processing of the network with C=0.15
+2025-05-12 08:26:52,365 - ANN application - INFO - Completing categories
+2025-05-12 08:26:52,390 - ANN application - INFO - Completing habitats
+2025-05-12 08:26:53,412 - ANN application - INFO - CSV file created succesfully
+2025-05-12 08:26:53,426 - ANN application - INFO - Metrics file generated
+2025-05-12 08:26:56,376 - ANN application - INFO - PNG generated
+2025-05-12 08:26:56,376 - ANN application - INFO - Processing finished
+2025-05-12 08:29:39,305 - ANN application - INFO - Starting processing of the network with C=0.15
+2025-05-12 08:29:39,628 - ANN application - INFO - Completing categories
+2025-05-12 08:29:39,656 - ANN application - INFO - Completing habitats
+2025-05-12 08:29:41,012 - ANN application - INFO - CSV file created succesfully
+2025-05-12 08:29:41,034 - ANN application - INFO - Metrics file generated
+2025-05-12 08:29:43,981 - ANN application - INFO - PNG generated
+2025-05-12 08:29:43,982 - ANN application - INFO - Processing finished
+2025-05-12 09:25:49,830 - ANN application - INFO - Running tests
+2025-05-12 09:25:50,575 - ANN application - ERROR - Validation errors:
+2025-05-12 09:25:50,575 - ANN application - ERROR - - In requirements:
+2025-05-12 09:25:50,576 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:25:50,864 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:25:51,221 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:25:51,236 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:25:51,259 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:25:51,277 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:25:51,331 - ANN application - ERROR - Validation errors:
+2025-05-12 09:25:51,331 - ANN application - ERROR - - In requirements:
+2025-05-12 09:25:51,331 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:25:51,332 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:27:02,087 - ANN application - INFO - Running tests
+2025-05-12 09:27:02,585 - ANN application - ERROR - Validation errors:
+2025-05-12 09:27:02,586 - ANN application - ERROR - - In requirements:
+2025-05-12 09:27:02,586 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:27:02,865 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:27:03,234 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:27:03,246 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:27:03,260 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:27:03,277 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:27:03,338 - ANN application - ERROR - Validation errors:
+2025-05-12 09:27:03,338 - ANN application - ERROR - - In requirements:
+2025-05-12 09:27:03,338 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:27:03,339 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:28:53,251 - ANN application - INFO - Running tests
+2025-05-12 09:28:53,778 - ANN application - ERROR - Validation errors:
+2025-05-12 09:28:53,779 - ANN application - ERROR - - In requirements:
+2025-05-12 09:28:53,779 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:28:54,102 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:28:54,504 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:28:54,518 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:28:54,539 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:28:54,558 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:28:54,626 - ANN application - ERROR - Validation errors:
+2025-05-12 09:28:54,627 - ANN application - ERROR - - In requirements:
+2025-05-12 09:28:54,627 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:28:54,628 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:30:09,722 - ANN application - INFO - Running tests
+2025-05-12 09:30:10,341 - ANN application - ERROR - Validation errors:
+2025-05-12 09:30:10,343 - ANN application - ERROR - - In requirements:
+2025-05-12 09:30:10,344 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:30:10,717 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:30:11,144 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:30:11,159 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:30:11,173 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:30:11,191 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:30:11,262 - ANN application - ERROR - Validation errors:
+2025-05-12 09:30:11,263 - ANN application - ERROR - - In requirements:
+2025-05-12 09:30:11,263 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:30:11,264 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:32:27,459 - ANN application - INFO - Running tests
+2025-05-12 09:32:27,903 - ANN application - ERROR - Validation errors:
+2025-05-12 09:32:27,904 - ANN application - ERROR - - In requirements:
+2025-05-12 09:32:27,904 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:32:28,160 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:32:28,506 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:32:28,516 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:32:28,531 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:32:28,545 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:32:28,604 - ANN application - ERROR - Validation errors:
+2025-05-12 09:32:28,604 - ANN application - ERROR - - In requirements:
+2025-05-12 09:32:28,604 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:32:28,606 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:54:57,322 - ANN application - INFO - Running tests
+2025-05-12 09:54:57,782 - ANN application - ERROR - Validation errors:
+2025-05-12 09:54:57,783 - ANN application - ERROR - - In requirements:
+2025-05-12 09:54:57,784 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:54:58,060 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:54:58,402 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:54:58,414 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:54:58,435 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:54:58,452 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:54:58,507 - ANN application - ERROR - Validation errors:
+2025-05-12 09:54:58,507 - ANN application - ERROR - - In requirements:
+2025-05-12 09:54:58,508 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:54:58,509 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:55:57,447 - ANN application - INFO - Running tests
+2025-05-12 09:55:57,901 - ANN application - ERROR - Validation errors:
+2025-05-12 09:55:57,901 - ANN application - ERROR - - In requirements:
+2025-05-12 09:55:57,902 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:55:58,184 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:55:58,450 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:55:58,460 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:55:58,473 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:55:58,487 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:55:58,557 - ANN application - ERROR - Validation errors:
+2025-05-12 09:55:58,558 - ANN application - ERROR - - In requirements:
+2025-05-12 09:55:58,558 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:55:58,560 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:55:58,647 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config_habitat/classifier.yaml'
+2025-05-12 09:55:58,648 - ANN application - INFO - Completing categories
+2025-05-12 09:56:49,174 - ANN application - INFO - Running tests
+2025-05-12 09:56:49,875 - ANN application - ERROR - Validation errors:
+2025-05-12 09:56:49,875 - ANN application - ERROR - - In requirements:
+2025-05-12 09:56:49,875 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:56:50,106 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:56:50,428 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:56:50,438 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:56:50,452 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:56:50,467 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:56:50,528 - ANN application - ERROR - Validation errors:
+2025-05-12 09:56:50,528 - ANN application - ERROR - - In requirements:
+2025-05-12 09:56:50,528 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:56:50,530 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:56:50,642 - ANN application - INFO - Completing categories
+2025-05-12 09:56:50,683 - ANN application - INFO - Completing habitats
+2025-05-12 09:59:46,234 - ANN application - INFO - Running tests
+2025-05-12 09:59:46,680 - ANN application - ERROR - Validation errors:
+2025-05-12 09:59:46,681 - ANN application - ERROR - - In requirements:
+2025-05-12 09:59:46,682 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:59:46,955 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 09:59:47,274 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 09:59:47,283 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 09:59:47,297 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 09:59:47,312 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 09:59:47,375 - ANN application - ERROR - Validation errors:
+2025-05-12 09:59:47,375 - ANN application - ERROR - - In requirements:
+2025-05-12 09:59:47,376 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 09:59:47,378 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 09:59:47,467 - ANN application - INFO - Completing categories
+2025-05-12 09:59:47,479 - ANN application - INFO - Completing habitats
+2025-05-12 10:01:07,774 - ANN application - INFO - Running tests
+2025-05-12 10:01:08,515 - ANN application - ERROR - Validation errors:
+2025-05-12 10:01:08,515 - ANN application - ERROR - - In requirements:
+2025-05-12 10:01:08,515 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:01:08,892 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:01:09,426 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:01:09,439 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:01:09,455 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:01:09,477 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:01:09,563 - ANN application - ERROR - Validation errors:
+2025-05-12 10:01:09,564 - ANN application - ERROR - - In requirements:
+2025-05-12 10:01:09,565 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:01:09,566 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:01:09,684 - ANN application - INFO - Completing categories
+2025-05-12 10:01:09,703 - ANN application - INFO - Completing habitats
+2025-05-12 10:19:25,462 - ANN application - INFO - Running tests
+2025-05-12 10:19:25,742 - ANN application - ERROR - Validation errors:
+2025-05-12 10:19:25,743 - ANN application - ERROR - - In requirements:
+2025-05-12 10:19:25,743 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:19:25,889 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:19:26,047 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:19:26,056 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:19:26,073 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:19:26,085 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:19:26,129 - ANN application - ERROR - Validation errors:
+2025-05-12 10:19:26,129 - ANN application - ERROR - - In requirements:
+2025-05-12 10:19:26,129 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:19:26,130 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:19:26,193 - ANN application - INFO - Completing categories
+2025-05-12 10:19:26,203 - ANN application - INFO - Completing habitats
+2025-05-12 10:22:28,961 - ANN application - INFO - Running tests
+2025-05-12 10:22:29,244 - ANN application - ERROR - Validation errors:
+2025-05-12 10:22:29,244 - ANN application - ERROR - - In requirements:
+2025-05-12 10:22:29,244 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:22:29,416 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:22:29,594 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:22:29,603 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:22:29,615 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:22:29,626 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:22:29,668 - ANN application - ERROR - Validation errors:
+2025-05-12 10:22:29,668 - ANN application - ERROR - - In requirements:
+2025-05-12 10:22:29,668 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:22:29,669 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:22:29,732 - ANN application - INFO - Completing categories
+2025-05-12 10:22:29,743 - ANN application - INFO - Completing habitats
+2025-05-12 10:23:06,581 - ANN application - INFO - Running tests
+2025-05-12 10:23:06,826 - ANN application - ERROR - Validation errors:
+2025-05-12 10:23:06,826 - ANN application - ERROR - - In requirements:
+2025-05-12 10:23:06,827 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:23:07,014 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:23:07,171 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:23:07,179 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:23:07,188 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:23:07,200 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:23:07,242 - ANN application - ERROR - Validation errors:
+2025-05-12 10:23:07,242 - ANN application - ERROR - - In requirements:
+2025-05-12 10:23:07,242 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:23:07,243 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:23:07,302 - ANN application - INFO - Completing categories
+2025-05-12 10:23:07,310 - ANN application - INFO - Completing habitats
+2025-05-12 10:27:17,524 - ANN application - INFO - Running tests
+2025-05-12 10:27:17,778 - ANN application - ERROR - Validation errors:
+2025-05-12 10:27:17,779 - ANN application - ERROR - - In requirements:
+2025-05-12 10:27:17,780 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:27:17,918 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:27:18,081 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:27:18,092 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:27:18,100 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:27:18,112 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:27:18,153 - ANN application - ERROR - Validation errors:
+2025-05-12 10:27:18,154 - ANN application - ERROR - - In requirements:
+2025-05-12 10:27:18,155 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:27:18,155 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:27:18,216 - ANN application - INFO - Completing categories
+2025-05-12 10:27:18,225 - ANN application - INFO - Completing habitats
+2025-05-12 10:28:03,158 - ANN application - INFO - Running tests
+2025-05-12 10:28:03,410 - ANN application - ERROR - Validation errors:
+2025-05-12 10:28:03,411 - ANN application - ERROR - - In requirements:
+2025-05-12 10:28:03,411 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:28:03,552 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:28:03,712 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:28:03,722 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:28:03,733 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:28:03,745 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:28:03,791 - ANN application - ERROR - Validation errors:
+2025-05-12 10:28:03,791 - ANN application - ERROR - - In requirements:
+2025-05-12 10:28:03,791 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:28:03,792 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:28:03,851 - ANN application - INFO - Completing categories
+2025-05-12 10:28:03,860 - ANN application - INFO - Completing habitats
+2025-05-12 10:29:40,158 - ANN application - INFO - Running tests
+2025-05-12 10:29:40,440 - ANN application - ERROR - Validation errors:
+2025-05-12 10:29:40,441 - ANN application - ERROR - - In requirements:
+2025-05-12 10:29:40,441 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:29:40,586 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:29:40,745 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:29:40,755 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:29:40,768 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:29:40,777 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:29:40,822 - ANN application - ERROR - Validation errors:
+2025-05-12 10:29:40,822 - ANN application - ERROR - - In requirements:
+2025-05-12 10:29:40,822 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:29:40,823 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:29:40,882 - ANN application - INFO - Completing categories
+2025-05-12 10:29:40,890 - ANN application - INFO - Completing habitats
+2025-05-12 10:31:27,751 - ANN application - INFO - Running tests
+2025-05-12 10:31:27,996 - ANN application - ERROR - Validation errors:
+2025-05-12 10:31:27,997 - ANN application - ERROR - - In requirements:
+2025-05-12 10:31:27,998 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:31:28,141 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 10:31:28,298 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 10:31:28,305 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 10:31:28,316 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 10:31:28,326 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 10:31:28,369 - ANN application - ERROR - Validation errors:
+2025-05-12 10:31:28,369 - ANN application - ERROR - - In requirements:
+2025-05-12 10:31:28,369 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 10:31:28,370 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 10:31:28,434 - ANN application - INFO - Completing categories
+2025-05-12 10:31:28,441 - ANN application - INFO - Completing habitats
+2025-05-12 10:32:02,938 - ANN application - INFO - Completing categories
+2025-05-12 10:32:02,945 - ANN application - INFO - Completing habitats
+2025-05-12 10:32:21,597 - ANN application - INFO - Completing categories
+2025-05-12 10:32:21,603 - ANN application - INFO - Completing habitats
+2025-05-12 10:35:15,539 - ANN application - INFO - Completing categories
+2025-05-12 10:35:15,547 - ANN application - INFO - Completing habitats
+2025-05-12 10:39:55,568 - ANN application - INFO - Completing categories
+2025-05-12 10:39:55,575 - ANN application - INFO - Completing habitats
+2025-05-12 10:40:43,820 - ANN application - INFO - Completing categories
+2025-05-12 10:40:43,830 - ANN application - INFO - Completing habitats
+2025-05-12 10:58:56,788 - ANN application - INFO - Completing categories
+2025-05-12 10:58:56,796 - ANN application - INFO - Completing habitats
+2025-05-12 10:59:41,579 - ANN application - INFO - Completing categories
+2025-05-12 10:59:41,586 - ANN application - INFO - Completing habitats
+2025-05-12 11:08:44,270 - ANN application - INFO - Completing categories
+2025-05-12 11:08:44,279 - ANN application - INFO - Completing habitats
+2025-05-12 11:08:54,733 - ANN application - INFO - Completing categories
+2025-05-12 11:08:54,740 - ANN application - INFO - Completing habitats
+2025-05-12 11:09:39,023 - ANN application - INFO - Completing categories
+2025-05-12 11:09:39,032 - ANN application - INFO - Completing habitats
+2025-05-12 11:10:21,823 - ANN application - INFO - Completing categories
+2025-05-12 11:10:21,834 - ANN application - INFO - Completing habitats
+2025-05-12 11:10:25,778 - ANN application - INFO - Completing categories
+2025-05-12 11:10:25,785 - ANN application - INFO - Completing habitats
+2025-05-12 11:10:29,082 - ANN application - INFO - Completing categories
+2025-05-12 11:10:29,090 - ANN application - INFO - Completing habitats
+2025-05-12 11:10:35,284 - ANN application - INFO - Completing categories
+2025-05-12 11:10:35,291 - ANN application - INFO - Completing habitats
+2025-05-12 11:10:52,119 - ANN application - INFO - Completing categories
+2025-05-12 11:10:52,128 - ANN application - INFO - Completing habitats
+2025-05-12 11:18:14,125 - ANN application - INFO - Completing categories
+2025-05-12 11:18:14,132 - ANN application - INFO - Completing habitats
+2025-05-12 11:18:35,682 - ANN application - INFO - Completing categories
+2025-05-12 11:18:35,689 - ANN application - INFO - Completing habitats
+2025-05-12 11:30:40,935 - ANN application - INFO - Completing categories
+2025-05-12 11:30:40,943 - ANN application - INFO - Completing habitats
+2025-05-12 11:58:33,092 - ANN application - INFO - Completing categories
+2025-05-12 11:58:33,104 - ANN application - INFO - Completing habitats
+2025-05-12 11:59:08,851 - ANN application - INFO - Completing categories
+2025-05-12 11:59:08,859 - ANN application - INFO - Completing habitats
+2025-05-12 11:59:49,629 - ANN application - INFO - Completing categories
+2025-05-12 11:59:49,635 - ANN application - INFO - Completing habitats
+2025-05-12 12:00:10,107 - ANN application - INFO - Completing categories
+2025-05-12 12:00:10,117 - ANN application - INFO - Completing habitats
+2025-05-12 12:00:59,430 - ANN application - INFO - Completing categories
+2025-05-12 12:00:59,439 - ANN application - INFO - Completing habitats
+2025-05-12 12:07:17,530 - ANN application - INFO - Completing categories
+2025-05-12 12:07:17,537 - ANN application - INFO - Completing habitats
+2025-05-12 12:32:20,205 - ANN application - INFO - Completing categories
+2025-05-12 12:32:20,217 - ANN application - INFO - Completing habitats
+2025-05-12 12:37:10,021 - ANN application - INFO - Completing categories
+2025-05-12 12:37:10,034 - ANN application - INFO - Completing habitats
+2025-05-12 12:38:10,948 - ANN application - INFO - Completing categories
+2025-05-12 12:38:10,957 - ANN application - INFO - Completing habitats
+2025-05-12 12:38:25,434 - ANN application - INFO - Completing categories
+2025-05-12 12:38:25,442 - ANN application - INFO - Completing habitats
+2025-05-12 12:39:15,357 - ANN application - INFO - Completing categories
+2025-05-12 12:39:15,368 - ANN application - INFO - Completing habitats
+2025-05-12 12:44:18,476 - ANN application - INFO - Completing categories
+2025-05-12 12:44:18,485 - ANN application - INFO - Completing habitats
+2025-05-12 12:51:29,288 - ANN application - INFO - Completing categories
+2025-05-12 12:51:29,297 - ANN application - INFO - Completing habitats
+2025-05-12 12:52:50,921 - ANN application - INFO - Completing categories
+2025-05-12 12:52:50,929 - ANN application - INFO - Completing habitats
+2025-05-12 12:53:31,784 - ANN application - INFO - Completing categories
+2025-05-12 12:53:31,794 - ANN application - INFO - Completing habitats
+2025-05-12 12:54:03,877 - ANN application - INFO - Completing categories
+2025-05-12 12:54:03,885 - ANN application - INFO - Completing habitats
+2025-05-12 12:54:55,325 - ANN application - INFO - Completing categories
+2025-05-12 12:54:55,332 - ANN application - INFO - Completing habitats
+2025-05-12 13:11:56,477 - ANN application - INFO - Completing categories
+2025-05-12 13:11:56,486 - ANN application - INFO - Completing habitats
+2025-05-12 13:12:29,825 - ANN application - INFO - Completing categories
+2025-05-12 13:12:29,834 - ANN application - INFO - Completing habitats
+2025-05-12 13:12:56,854 - ANN application - INFO - Completing categories
+2025-05-12 13:12:56,860 - ANN application - INFO - Completing habitats
+2025-05-12 13:13:17,819 - ANN application - INFO - Completing categories
+2025-05-12 13:13:17,827 - ANN application - INFO - Completing habitats
+2025-05-12 13:15:11,255 - ANN application - INFO - Completing categories
+2025-05-12 13:15:11,261 - ANN application - INFO - Completing habitats
+2025-05-12 13:41:10,505 - ANN application - INFO - Completing categories
+2025-05-12 13:41:10,516 - ANN application - INFO - Completing habitats
+2025-05-12 13:42:25,292 - ANN application - INFO - Completing categories
+2025-05-12 13:42:25,301 - ANN application - INFO - Completing habitats
+2025-05-12 13:51:25,437 - ANN application - INFO - Completing categories
+2025-05-12 13:51:25,445 - ANN application - INFO - Completing habitats
+2025-05-12 13:51:46,976 - ANN application - INFO - Completing categories
+2025-05-12 13:51:46,984 - ANN application - INFO - Completing habitats
+2025-05-12 13:52:45,095 - ANN application - INFO - Completing categories
+2025-05-12 13:52:45,102 - ANN application - INFO - Completing habitats
+2025-05-12 13:53:56,784 - ANN application - INFO - Completing categories
+2025-05-12 13:53:56,790 - ANN application - INFO - Completing habitats
+2025-05-12 13:54:06,027 - ANN application - INFO - Completing categories
+2025-05-12 13:54:06,036 - ANN application - INFO - Completing habitats
+2025-05-12 13:54:32,645 - ANN application - INFO - Completing categories
+2025-05-12 13:54:32,657 - ANN application - INFO - Completing habitats
+2025-05-12 14:01:47,958 - ANN application - INFO - Completing categories
+2025-05-12 14:01:47,966 - ANN application - INFO - Completing habitats
+2025-05-12 14:01:53,404 - ANN application - INFO - Running tests
+2025-05-12 14:01:53,679 - ANN application - ERROR - Validation errors:
+2025-05-12 14:01:53,679 - ANN application - ERROR - - In requirements:
+2025-05-12 14:01:53,679 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 14:01:53,822 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 14:01:53,987 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 14:01:53,997 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 14:01:54,007 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 14:01:54,020 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 14:01:54,064 - ANN application - ERROR - Validation errors:
+2025-05-12 14:01:54,064 - ANN application - ERROR - - In requirements:
+2025-05-12 14:01:54,064 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 14:01:54,065 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 14:01:54,127 - ANN application - INFO - Completing categories
+2025-05-12 14:01:54,136 - ANN application - INFO - Completing habitats
+2025-05-12 14:02:05,862 - ANN application - INFO - Running tests
+2025-05-12 14:02:06,107 - ANN application - ERROR - Validation errors:
+2025-05-12 14:02:06,108 - ANN application - ERROR - - In requirements:
+2025-05-12 14:02:06,108 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 14:02:06,250 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 14:02:06,419 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 14:02:06,428 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 14:02:06,439 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 14:02:06,452 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 14:02:06,490 - ANN application - ERROR - Validation errors:
+2025-05-12 14:02:06,490 - ANN application - ERROR - - In requirements:
+2025-05-12 14:02:06,491 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 14:02:06,491 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 14:02:06,554 - ANN application - INFO - Completing categories
+2025-05-12 14:02:06,563 - ANN application - INFO - Completing habitats
+2025-05-12 14:02:33,846 - ANN application - INFO - Running tests
+2025-05-12 14:02:34,091 - ANN application - ERROR - Validation errors:
+2025-05-12 14:02:34,091 - ANN application - ERROR - - In requirements:
+2025-05-12 14:02:34,092 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 14:02:34,233 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-12 14:02:34,392 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-12 14:02:34,400 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-12 14:02:34,411 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-12 14:02:34,420 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-12 14:02:34,473 - ANN application - ERROR - Validation errors:
+2025-05-12 14:02:34,473 - ANN application - ERROR - - In requirements:
+2025-05-12 14:02:34,474 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-12 14:02:34,475 - ANN application - ERROR - Error: configuration file not found
+2025-05-12 14:02:34,556 - ANN application - INFO - Completing categories
+2025-05-12 14:02:34,565 - ANN application - INFO - Completing habitats
+2025-05-13 08:10:11,290 - ANN application - INFO - Running tests
+2025-05-13 08:10:11,648 - ANN application - ERROR - Validation errors:
+2025-05-13 08:10:11,648 - ANN application - ERROR - - In requirements:
+2025-05-13 08:10:11,648 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-13 08:10:11,791 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-13 08:10:11,955 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-13 08:10:11,964 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-13 08:10:11,974 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-13 08:10:11,987 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-13 08:10:12,027 - ANN application - ERROR - Validation errors:
+2025-05-13 08:10:12,027 - ANN application - ERROR - - In requirements:
+2025-05-13 08:10:12,028 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-13 08:10:12,029 - ANN application - ERROR - Error: configuration file not found
+2025-05-13 08:10:12,180 - ANN application - INFO - Completing categories
+2025-05-13 08:10:12,192 - ANN application - INFO - Completing habitats
+2025-05-13 09:11:22,452 - ANN application - INFO - Running tests
+2025-05-13 09:11:22,743 - ANN application - ERROR - Validation errors:
+2025-05-13 09:11:22,743 - ANN application - ERROR - - In requirements:
+2025-05-13 09:11:22,743 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-13 09:11:22,923 - ANN application - ERROR - Error: configuration file not found [Errno 2] No such file or directory: '/home/pablo/TFG/TFG_informatica/config/classifier_wrong_name.yaml'
+2025-05-13 09:11:23,078 - ANN application - ERROR - Non_existent_file.csv not found in data/habitats directory
+2025-05-13 09:11:23,087 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv: Error tokenizing data. C error: Expected 7 fields in line 2, saw 10
+
+2025-05-13 09:11:23,099 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_wrong_format.csv: Wrong format in CSV Zona-0_Las_Hoyas-C1_wrong_format.csv
+2025-05-13 09:11:23,111 - ANN application - ERROR - Unexpected error while reading Zona-0_Las_Hoyas-C1_non_float_values.csv: could not convert string to float: 'Hola'
+2025-05-13 09:11:23,152 - ANN application - ERROR - Validation errors:
+2025-05-13 09:11:23,152 - ANN application - ERROR - - In requirements:
+2025-05-13 09:11:23,153 - ANN application - ERROR -    {2: ['none or more than one rule validate', {'oneof definition 0': [{'except': ['unknown field']}], 'oneof definition 1': [{'except': ['unknown field']}]}]}
+2025-05-13 09:11:23,153 - ANN application - ERROR - Error: configuration file not found
+2025-05-13 09:11:23,215 - ANN application - INFO - Completing categories
+2025-05-13 09:11:23,226 - ANN application - INFO - Completing habitats
+2025-05-13 09:31:16,161 - ANN application - INFO - Completing categories
+2025-05-13 09:31:16,169 - ANN application - INFO - Completing habitats
+2025-05-13 12:54:27,283 - ANN application - INFO - Completing categories
+2025-05-13 12:54:27,309 - ANN application - INFO - Completing habitats
+2025-05-13 12:59:15,796 - ANN application - INFO - Completing categories
+2025-05-13 12:59:15,813 - ANN application - INFO - Completing habitats
+2025-05-13 13:02:14,324 - ANN application - INFO - Completing categories
+2025-05-13 13:02:14,335 - ANN application - INFO - Completing habitats
+2025-05-13 13:03:40,316 - ANN application - INFO - Completing categories
+2025-05-13 13:03:40,330 - ANN application - INFO - Completing habitats
+2025-05-13 13:04:54,212 - ANN application - INFO - Completing categories
+2025-05-13 13:04:54,225 - ANN application - INFO - Completing habitats
+2025-05-13 13:05:16,493 - ANN application - INFO - Completing categories
+2025-05-13 13:05:16,506 - ANN application - INFO - Completing habitats
+2025-05-13 13:05:24,140 - ANN application - INFO - Completing categories
+2025-05-13 13:05:24,157 - ANN application - INFO - Completing habitats
+2025-05-13 13:06:14,694 - ANN application - INFO - Completing categories
+2025-05-13 13:06:14,714 - ANN application - INFO - Completing habitats
+2025-05-13 13:06:28,294 - ANN application - INFO - Completing categories
+2025-05-13 13:06:28,310 - ANN application - INFO - Completing habitats
+2025-05-13 13:23:18,028 - ANN application - INFO - Completing categories
+2025-05-13 13:23:18,083 - ANN application - INFO - Completing habitats
+2025-05-13 13:23:37,786 - ANN application - INFO - Completing categories
+2025-05-13 13:23:37,829 - ANN application - INFO - Completing habitats
+2025-05-13 13:25:17,700 - ANN application - INFO - Completing categories
+2025-05-13 13:25:17,725 - ANN application - INFO - Completing habitats
+2025-05-13 13:26:57,618 - ANN application - INFO - Completing categories
+2025-05-13 13:26:57,632 - ANN application - INFO - Completing habitats
+2025-05-13 13:28:12,640 - ANN application - INFO - Completing categories
+2025-05-13 13:28:12,654 - ANN application - INFO - Completing habitats
+2025-05-13 13:29:16,491 - ANN application - INFO - Completing categories
+2025-05-13 13:29:16,505 - ANN application - INFO - Completing habitats
+2025-05-13 13:32:45,572 - ANN application - INFO - Completing categories
+2025-05-13 13:32:45,587 - ANN application - INFO - Completing habitats
+2025-05-13 13:33:31,678 - ANN application - INFO - Completing categories
+2025-05-13 13:33:31,690 - ANN application - INFO - Completing habitats
+2025-05-13 13:34:02,299 - ANN application - INFO - Completing categories
+2025-05-13 13:34:02,311 - ANN application - INFO - Completing habitats
+2025-05-13 13:34:42,107 - ANN application - INFO - Completing categories
+2025-05-13 13:34:42,127 - ANN application - INFO - Completing habitats
+2025-05-13 13:34:54,086 - ANN application - INFO - Completing categories
+2025-05-13 13:34:54,101 - ANN application - INFO - Completing habitats
+2025-05-13 13:37:53,934 - ANN application - INFO - Completing categories
+2025-05-13 13:37:53,944 - ANN application - INFO - Completing habitats
+2025-05-13 13:38:11,220 - ANN application - INFO - Completing categories
+2025-05-13 13:38:11,232 - ANN application - INFO - Completing habitats
+2025-05-13 13:41:06,527 - ANN application - INFO - Completing categories
+2025-05-13 13:41:06,539 - ANN application - INFO - Completing habitats
+2025-05-13 13:41:30,428 - ANN application - INFO - Completing categories
+2025-05-13 13:41:30,448 - ANN application - INFO - Completing habitats
+2025-05-13 13:41:48,339 - ANN application - INFO - Completing categories
+2025-05-13 13:41:48,352 - ANN application - INFO - Completing habitats

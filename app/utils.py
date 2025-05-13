@@ -10,6 +10,8 @@ from app.metrics import analyze_network, save_metrics
 from app.graph import generate_graph_png
 from app.logger import logger
 from app.classifier import classifier_habitat
+from mongodb.complete_collection import clean_categories
+from mongodb.complete_collection import clean_habitat
 
 
 # Used to create a predation matrix.
@@ -70,6 +72,7 @@ def load_habitat_method(selected_values: list, C: float):
     
     habitat_file = selected_values[0]
     cl = selected_values[1]
+    clh = selected_values[2]
     
     logger.info(f"Starting processing of the network with C={C}")
     
@@ -77,9 +80,12 @@ def load_habitat_method(selected_values: list, C: float):
         logger.error("Habitat or configuration files not selected")
         return
     
-    if not formatter(habitat_file,"collection1") or not classifier("collection1","collection2",cl) or not classifier_habitat("collection2","collection3","habitat_configuration.yaml"):
+    if not formatter(habitat_file,"collection1") or not classifier("collection1","collection2",cl) or not classifier_habitat("collection2","collection3", clh):
         logger.error("Application failed to load the habitat. Returning...")
         return
+    
+    clean_categories('collection3')
+    clean_habitat('collection3')
     
     habitat = read_habitat_curated('collection3')
     matrix_h = matrix_maker(cl)

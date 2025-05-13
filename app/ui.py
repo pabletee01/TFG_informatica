@@ -128,12 +128,29 @@ def load_habitat(main_frame):
 
     combo2 = ttk.Combobox(config_frame, values=files_config, state="readonly", width=60)
     combo2.pack()
+    
+    # Habitat config selection
+    route_config = os.getcwd() + "/config_habitat/"
+    files_config = []
+    for _, _, files in os.walk(route_config):
+        files_config.extend(files)
+
+    config_frame = tk.Frame(main_frame, bg="#f0f0f0")
+    config_frame.grid(row=3, column=0, pady=10)
+
+    tk.Label(config_frame,
+             text="Habitat configuration file:",
+             bg="#f0f0f0",
+             font=("Helvetica", 12)).pack(anchor="w")
+
+    combo3 = ttk.Combobox(config_frame, values=files_config, state="readonly", width=60)
+    combo3.pack()
 
     # Button row
     button_frame = tk.Frame(main_frame, bg="#f0f0f0")
-    button_frame.grid(row=3, column=0, pady=30)
+    button_frame.grid(row=4, column=0, pady=30)
 
-    selected_values = [None, None]
+    selected_values = [None, None, None]
 
     # Continue button
     continue_b = tk.Button(
@@ -142,7 +159,7 @@ def load_habitat(main_frame):
         font=("Helvetica", 14),
         bg="#77dd77",
         fg="white",
-        command=lambda: on_continue_load_habitat(combo1, combo2, selected_values, main_frame)
+        command=lambda: on_continue_load_habitat(combo1, combo2, combo3, selected_values, main_frame)
     )
     continue_b.pack(padx=20)
 
@@ -281,16 +298,19 @@ def set_c_value(main_frame):
         messagebox.showinfo("Success", f"C value updated to {C_value}")
 
 # Function to execute when clicking "Continue" 
-def on_continue_load_habitat(combo1, combo2, selected_values, main_frame):
+def on_continue_load_habitat(combo1, combo2, combo3, selected_values, main_frame):
     val1 = combo1.get()
     val2 = combo2.get()
-    if not val1 or not val2:
-        messagebox.showwarning("Missing data", "Please select both files before continuing.")
+    val3 = combo3.get()
+    if not val1 or not val2 or not val3:
+        messagebox.showwarning("Missing data", "Please select the three files before continuing.")
         return
     selected_values[0] = val1
     selected_values[1] = val2
-    messagebox.showinfo("Files Selected", f"Habitat: {val1}\nConfig: {val2}")
+    selected_values[2] = val3
+    
     load_habitat_method(selected_values, C_value)
+    messagebox.showinfo("Habitat loaded successfuly", f"Habitat: {val1}\nConfig: {val2}\nHabitat config: {val3}")
     load_habitat(main_frame)
 
 def main_menu():

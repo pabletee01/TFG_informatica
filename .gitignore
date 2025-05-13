@@ -7,6 +7,8 @@ data/habitats/*.csv
 !Zona-0_Las_Hoyas-C1_wrong_format_in_header.csv
 !Zona-0_Las_Hoyas-C1_non_float_values.csv
 !Zona-0_Las_Hoyas-C1_wrong_format.csv
+!test_ok.csv
+!test[0-9].csv
 venv
 data/graphs/*.png
 data/metrics/*metrics

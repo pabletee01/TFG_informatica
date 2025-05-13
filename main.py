@@ -18,6 +18,7 @@ from app.logger import logger
 from app.classifier import classifier_habitat
 from mongodb.complete_collection import clean_categories
 from mongodb.complete_collection import clean_habitat
+from test.test_relation_maker import AUX_method, AUX_method_frequencies
 
 
 C = 0.15
@@ -57,6 +58,9 @@ def main():
     )
     parser.add_argument(
         "-co", "--completer", action="store_true", help="Testing habitat completer"
+    )
+    parser.add_argument(
+        "-aux", "--auxiliar", action="store_true", help="Testing auxiliar method from relation maker tester"
     )
     
     args = parser.parse_args()
@@ -133,6 +137,16 @@ def main():
         classifier_habitat("collection2","collection3","habitat_configuration.yaml")
         clean_categories("collection3")
         clean_habitat("collection3")
+    elif args.auxiliar:
+        white_list = {
+            "Bacteria2": ["Bacteria1", "Bacteria3"],
+            "Bacteria1": ["Bacteria2", "Bacteria3"],
+            "Bacteria3": ["Bacteria1", "Bacteria2"]
+        }
+
+        AUX_method_frequencies("test_ok.csv",0.1,1000,white_list)
+        
+        
 
         
         

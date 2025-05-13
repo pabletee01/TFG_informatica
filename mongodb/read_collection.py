@@ -82,11 +82,11 @@ def read_habitat_from_type_niche(name: str, type_key: str, type: str):
     
     for doc in all_documents:
         categories = doc.get("habitat", [])
-        logger.info(categories)
+        logger.debug(categories)
         category_counter.update(categories)
         
     
-    logger.info(category_counter)
+    logger.debug(category_counter)
     # Picking the most frequent category    
     if category_counter:   
         categoria = category_counter.most_common(1)[0][0]

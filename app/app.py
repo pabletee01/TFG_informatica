@@ -18,7 +18,7 @@ def calculate_ni(min_mass: float, max_mass: float, mass: float):
     log_max_mass = np.log10(max_mass)
     log_min_mass = np.log10(min_mass)
 
-    ni = (log_mass - log_min_mass) / (log_max_mass - log_min_mass)
+    ni = (log_mass - log_min_mass) / ((log_max_mass - log_min_mass) if log_max_mass - log_min_mass != 0 else 1)
 
     return ni
     
