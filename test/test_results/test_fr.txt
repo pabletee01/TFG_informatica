@@ -1,0 +1,1 @@
+{'Bacteria2': [['Bacteria1', 10], ['Bacteria3', 10]]}
